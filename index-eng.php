@@ -606,88 +606,102 @@
                 var objRE = /(^https?:\/\/)?[a-z0-9~_\-\.]+\.[a-z]{2,9}(\/|:|\?[!-~]*)?$/i;
             return objRE.test(url);
         }
-          function dataField(f) {
-              let formdata = new FormData(f);
-              let formdatasend = {};
+       function dataField(f) {
+        let formdata = new FormData(f);
+        let formdatasend = {};
 
-              formdata.forEach((value, key) => {formdatasend[key] = value});
+        formdata.forEach((value, key) => {formdatasend[key] = value});
 
-              let flag = true;
-              document.getElementById('input_name' ).classList.remove('error');
-              document.getElementById('input_email').classList.remove('error');
-              document.getElementById('input_link' ).classList.remove('error');
-              if(f.name.value == "" ) {
-                  document.getElementById('input_name').classList.add('error');
-                  flag = false;
-              }
-              else document.getElementById('input_name').classList.add('success');
-              if((f.email.value == "") || (!validateEmail(f.email.value)) ) {
-                  document.getElementById('input_email').classList.add('error');
-                  flag = false;
-              }
-              else document.getElementById('input_email').classList.add('success');
-              if((f.link.value == ""))  {
-                  document.getElementById('input_link').classList.add('error');
-                  flag = false;
-              }
-              else document.getElementById('input_link').classList.add('success');
-              if(flag)	{
-                  $.ajax({
+        let windowgadata = window.ga_data ? window.ga_data : null;
+
+        formdatasend["ga_data"] = windowgadata;
+
+        let flag = true;
+        document.getElementById('input_name' ).classList.remove('error');
+        document.getElementById('input_email').classList.remove('error');
+        document.getElementById('input_link' ).classList.remove('error');
+        if(f.name.value == "" ) {
+            document.getElementById('input_name').classList.add('error');
+            flag = false;
+        }
+        else document.getElementById('input_name').classList.add('success');
+        if((f.email.value == "") || (!validateEmail(f.email.value)) ) {
+            document.getElementById('input_email').classList.add('error');
+            flag = false;
+        }
+        else document.getElementById('input_email').classList.add('success');
+        if((f.link.value == ""))  {
+            document.getElementById('input_link').classList.add('error');
+            flag = false;
+        }
+        else document.getElementById('input_link').classList.add('success');
+        if(flag)	{
+            $.ajax({
                 type: 'POST',
                 url:'https://krakatau.pro/application',
-                data: formdatasend
+                data: formdatasend,
+                success: function () {
+                    dataLayer.push({'event': 'FormSuccess'});
+                }
             });
-                  document.getElementById('popup').classList.add('show');
+            document.getElementById('popup').classList.add('show');
 
-                  setTimeout(function(){
-                      $('.kr-request.request-thanks').removeClass('show');
-                      $('body').removeClass('request-onscreen');
-                  }, 2000);
-              }
-              return false;
-          }
+            setTimeout(function(){
+                $('.kr-request.request-thanks').removeClass('show');
+                $('body').removeClass('request-onscreen');
+            }, 2000);
+        }
+        return false;
+    }
 
-          function dataField2(f) {
-              let formdata = new FormData(f);
-              let formdatasend = {};
+    function dataField2(f) {
+        let formdata = new FormData(f);
+        let formdatasend = {};
 
-              formdata.forEach((value, key) => {formdatasend[key] = value});
+        formdata.forEach((value, key) => {formdatasend[key] = value});
 
-              let flag = true;
-              document.getElementById('input_name2' ).classList.remove('error');
-              document.getElementById('input_email2').classList.remove('error');
-              document.getElementById('input_link2' ).classList.remove('error');
-              if(f.name.value == "" ) {
-                  document.getElementById('input_name2').classList.add('error');
-                  flag = false;
-              }
-              else document.getElementById('input_name2').classList.add('success');
-              if((f.email.value == "") || (!validateEmail(f.email.value)) ) {
-                  document.getElementById('input_email2').classList.add('error');
-                  flag = false;
-              }
-              else document.getElementById('input_email2').classList.add('success');
-              if((f.link.value == "") ) {
-                  document.getElementById('input_link2').classList.add('error');
-                  flag = false;
-              }
-              else document.getElementById('input_link2').classList.add('success');
-              if(flag)	{
-                  $.ajax({
+        let windowgadata = window.ga_data ? window.ga_data : null;
+
+        formdatasend["ga_data"] = windowgadata;
+
+        let flag = true;
+        document.getElementById('input_name2' ).classList.remove('error');
+        document.getElementById('input_email2').classList.remove('error');
+        document.getElementById('input_link2' ).classList.remove('error');
+        if(f.name.value == "" ) {
+            document.getElementById('input_name2').classList.add('error');
+            flag = false;
+        }
+        else document.getElementById('input_name2').classList.add('success');
+        if((f.email.value == "") || (!validateEmail(f.email.value)) ) {
+            document.getElementById('input_email2').classList.add('error');
+            flag = false;
+        }
+        else document.getElementById('input_email2').classList.add('success');
+        if((f.link.value == "") ) {
+            document.getElementById('input_link2').classList.add('error');
+            flag = false;
+        }
+        else document.getElementById('input_link2').classList.add('success');
+        if (flag) {
+            $.ajax({
                 type: 'POST',
-                url:'https://krakatau.pro/application',
-                data: formdatasend
+                url: 'https://krakatau.pro/application',
+                data: formdatasend,
+                success: function () {
+                    dataLayer.push({'event': 'FormSuccess'});
+                }
             });
-                  $('.kr-request').removeClass('show');
-                  document.getElementById('popup').classList.add('show');
+            $('.kr-request').removeClass('show');
+            document.getElementById('popup').classList.add('show');
 
-                  setTimeout(function(){
-                      $('.kr-request.request-thanks').removeClass('show');
-                      $('body').removeClass('request-onscreen');
-                  }, 2000);
-              }
-              return false;
-          }
+            setTimeout(function () {
+                $('.kr-request.request-thanks').removeClass('show');
+                $('body').removeClass('request-onscreen');
+            }, 2000);
+        }
+        return false;
+    }
 	</script>
 </body>
 </html>

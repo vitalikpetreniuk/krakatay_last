@@ -654,6 +654,8 @@
 
         formdata.forEach((value, key) => {formdatasend[key] = value});
 
+        formdatasend.ga_data = window.ga_data;
+
         let flag = true;
         document.getElementById('input_name2' ).classList.remove('error');
         document.getElementById('input_email2').classList.remove('error');
@@ -673,16 +675,19 @@
             flag = false;
         }
         else document.getElementById('input_link2').classList.add('success');
-        if(flag)	{
-           $.ajax({
+        if (flag) {
+            $.ajax({
                 type: 'POST',
-                url:'https://krakatau.pro/application',
-                data: formdatasend
+                url: 'https://krakatau.pro/application',
+                data: formdatasend,
+                success: function () {
+                    dataLayer.push({'event': 'FormSuccess'});
+                }
             });
             $('.kr-request').removeClass('show');
             document.getElementById('popup').classList.add('show');
 
-            setTimeout(function(){
+            setTimeout(function () {
                 $('.kr-request.request-thanks').removeClass('show');
                 $('body').removeClass('request-onscreen');
             }, 2000);
