@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="hi">
 <head>
 	<link rel="preconnect" href="https://cdn.jsdelivr.net" />
 	<link rel="prefetch" href="img/logo.webp">
@@ -9,11 +9,11 @@
 	<link rel="alternate" href="https://air.io/krakatau" hreflang="ru" />
     <link rel="alternate" href="https://air.io/en/krakatau" hreflang="en" />
 
-    <title>KRAKATAU — Service de Traduction et Localisation de chaînes YouTube</title>
-	<meta name="description" content="Localisez votre contenu dans 14 langues populaires au meilleur CPM et augmentez vos revenus. :white_check_mark: Laissez votre contenu YouTube conquérir le monde!">
+    <title>अपने यूट्यूब कॉन्टेंट को पूरी दुनिया जीतने दें।</title>
+	<meta name="description" content="आय वृद्धि के लिए लोकप्रिय 14 भाषाओं में सर्वोत्तम CPM के साथ अपने कॉन्टेंट स्थानीयकृत करें। :white_check_mark: अपने यूट्यूब कॉन्टेंट को पूरी दुनिया जीतने दें।">
 
-    <link rel="stylesheet" href="css/site-bundle.css">
-    <link rel="stylesheet" href="css/style.min.css">
+   	<link rel="stylesheet" href="css/site-bundle.css">
+   	<link rel="stylesheet" href="css/style.min.css">
 
     <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
@@ -33,6 +33,7 @@
 	<meta name="theme-color" content="#1b1c1c">
 
     <script defer src="js/site-bundle.js"></script>
+    <script defer src="js/main.js"></script>
 
     <style>
         .kr-section_welcome
@@ -54,13 +55,13 @@
 }else {
     $bodyclass = '';
 }?>
-<body class="<?=$bodyclass?> index-fre">
+<body class="<?=$bodyclass?> index-hin">
 	<div id="wrapper">
 		<header class="kr-header" style="background-color: #1b1c1c;">
 			<div class="container">
 				<div class="kr-header__left">
 					<div class="kr-header__logo" data-aos="fade-right">
-						<a href="/m_content/krakatau/">
+						<a href="/">
 							<picture>
 							  <source srcset="img/logo.webp" type="image/webp"> 
 							  <img src="img/logo.png" alt="logo">
@@ -74,14 +75,14 @@
 				<div class="kr-header__right" data-aos="fade-left" data-aos-delay="700">
 					<div class="kr-header__mainmenu">
 					<ul>
-						<li><a href="#about">Comment ça marche</a></li>
-						<li><a href="#profit">Bénéfices</a></li>
-						<li><a href="#audience">Audimat</a></li>
-						<li><a href="#infographics">Exemples</a></li>
-						<li><a href="#team">Notre équipe</a></li>
+						<li><a href="#about">यह किस तरह काम करता है</a></li>
+						<li><a href="#profit">मुनाफ़ा</a></li>
+						<li><a href="#audience">दर्शक</a></li>
+						<li><a href="#infographics">मामलें</a></li>
+						<li><a href="#team">हमारी टीम</a></li>
 					</ul>
 					<div class="kr-header__nav-contact">
-						<button>Nous contacter</button>
+						<button>हमसे संपर्क करें।</button>
 					</div>
 				</div>
 					<div class="kr-header__trigger"></div>
@@ -98,14 +99,14 @@
 				</div>
 				<div class="kr-header__nav">
 					<ul>
-						<li><a href="#about">Comment ça marche</a></li>
-						<li><a href="#profit">Profit</a></li>
-						<li><a href="#audience">Public</a></li>
-						<li><a href="#infographics">Cas</a></li>
-						<li><a href="#team">Notre équipe</a></li>
+						<li><a href="#about">यह किस तरह काम करता है</a></li>
+						<li><a href="#profit">मुनाफ़ा</a></li>
+						<li><a href="#audience">दर्शक</a></li>
+						<li><a href="#infographics">मामलें</a></li>
+						<li><a href="#team">हमारी टीम</a></li>
 					</ul>
 					<div class="kr-header__nav-contact">
-						<button>Nous contacter</button>
+						<button>हमसे संपर्क करें।</button>
 					</div>
 				</div>
 			</div>
@@ -113,30 +114,30 @@
 		<div class="main">
 			<div class="kr-languages">
 				<ul data-aos="slide-down" data-aos-delay="1500">
-					<li><a href="/m_content/krakatau/index-eng.php">Eng</a></li>
-                    <li><a href="/m_content/krakatau/index-spa.php">Spa</a></li>
-                    <li><a href="/m_content/krakatau/index-hin.php">Hin</a></li>
-                    <li><a href="/m_content/krakatau/index-ara.php">Ara</a></li>
-                    <li><a href="/m_content/krakatau/index.php">Rus</a></li>
-                    <li class="active">Fre</li>
-                    <li><a href="/m_content/krakatau/index-por.php">Por</a></li>
-                    <li><a href="/m_content/krakatau/index-ind.php">Ind</a></li>
-                    <li><a href="/m_content/krakatau/index-chi.php">Chi</a></li>
-                    <li><a href="/m_content/krakatau/index-deu.php">Deu</a></li>
-                    <li><a href="/m_content/krakatau/index-jpn.php">Jpn</a></li>
-                    <li><a href="/m_content/krakatau/index-ita.php">Ita</a></li>
-                    <li><a href="/m_content/krakatau/index-vie.php">Vie</a></li>
-                    <li><a href="/m_content/krakatau/index-kor.php">Kor</a></li>
+					<li><a href="/en">Eng</a></li>
+                    <li><a href="/sp">Spa</a></li>
+                    <li class="active">Hin</li>
+                    <li><a href="/ar">Ara</a></li>
+                    <li><a href="/ru">Rus</a></li>
+                    <li><a href="/fr">Fre</a></li>
+                    <li><a href="/po">Por</a></li>
+                    <li><a href="/in">Ind</a></li>
+                    <li><a href="/ch">Chi</a></li>
+                    <li><a href="/de">Deu</a></li>
+                    <li><a href="/jp">Jpn</a></li>
+                    <li><a href="/it">Ita</a></li>
+                    <li><a href="/vi">Vie</a></li>
+                    <li><a href="/ko">Kor</a></li>
 				</ul>
 			</div>
 			<section id="welcome" class="kr-section kr-section_welcome">
 				<div class="container">
-					<h1 data-aos="fade-left" data-aos-delay="1000" data-aos-anchor-placement="top-bottom">Super profits <span>pour votre</span><br> contenu YouTube</h1>
-					<span class="only-for" style="display: block" data-aos="fade-right" data-aos-delay="1000" data-aos-anchor-placement="top-bottom">Offre réservée aux chaînes<br> ayant au moins 300K abonnés !</span>
+					<h1 data-aos="fade-left" data-aos-delay="1000" data-aos-anchor-placement="top-bottom">आपके यू-ट्यूब<br class="vie-br1"> <span>कॉन्टेंट पर</span><br> शानदार मुनाफ़ा।</h1>
+					<span class="only-for" style="display: block" data-aos="fade-right" data-aos-delay="1000" data-aos-anchor-placement="top-bottom">चैनलों के लिए 3 लाख<br> सब्सक्राइबर्स का प्रस्ताव!</span>
 
 					<div class="welcome-info" data-aos="zoom-in" data-aos-delay="1000">
-						1 langue = 1 source de revenus<br>
-						<span>14 langues = 14 sources de revenus</span>
+						1 भाषा = आय का 1 स्रोत<br>
+						<span>14 भाषाएँ = आय के 14 स्रोत</span>
 					</div>
 
 					<div class="welcome-map" data-aos="fade-in" data-aos-delay="1000" data-aos-anchor-placement="top-bottom">
@@ -144,7 +145,7 @@
                             <div class="crm-content">
                                 <span class="crm-country"></span>
                                 <span class="crm-price">$<span></span></span>
-                                <p>CPM&nbsp;:&nbsp;chiffre&nbsp;d’affaires pour 1 Mns de visionnages payants</p>
+                                <p>दस लाख कमर्शियल<br> व्युज़ के<br> लिए CPM</p>
                             </div>
                         </div>
                         <div class="map-mobilenav">
@@ -161,7 +162,8 @@
 							<img class="map-shadow" src="img/shadow_map.png" alt="">
 						</picture>
                         <!-- <img class="map-shadow" src="img/shadow_map.png" alt=""> -->
-							<?php require_once('img/image-php/image1.php') ?>
+											<?php require_once('img/image-php/image1.php') ?>
+
 	                </div>
 				</div>
 
@@ -181,9 +183,8 @@
 				<div class="about-content">
 					<div class="container">
 						<div class="about-content__info" data-aos="fade-in">
-							<span>Vous avez une chaîne au contenu sympa ?</span>
-							<h2>Grâce à <strong>KRAKATAU</strong>, votre<br>
-							entendu, compris<br class="por-br1"> et liké<br> aux quatre coins<br> du monde !</h2>
+							<span>क्या आपके पास बेहतरीन कॉन्टेंट वाला चैनल है?</span>
+							<h2>क्रकाताऊ को धन्यवाद, जिसकी<br> सहायता से आपका कॉन्टेंट हर<br> महाद्वीप में सुना, देखा, समझा <br>और पसंद किया जाएगा! </h2>
 						</div>
 						<div class="about-content__boxes">
 							<div class="about-content__box" data-aos="fade-up">
@@ -195,13 +196,13 @@
 										</picture>
 										<!-- <img src="img/about1.png" alt=""> -->
 									</span>
-									<h3 class="box-title">Traduction</h3>
+									<h3 class="box-title">अनुवाद</h3>
 								</div>
 								<div class="box-content">
 									<ul>
-										<li>Analyse du potentiel<br> financier de votre contenu</li>
-										<li>Détermination de la<br> compétitivité d&#39;autres langues</li>
-										<li>Mise en œuvre d&#39;une stratégie<br> pour lancer d’autres chaînes</li>
+										<li>आपके कॉन्टेंट की क्षमता<br> का विश्लेषण करना।</li>
+										<li>अन्य भाषाओं में प्रतिस्पर्धा<br> का निर्धारण करना।</li>
+										<li>नए चैनलों को शुरू करने<br> की रणनीति बनाना।</li>
 									</ul>
 								</div>
 							</div>
@@ -214,13 +215,13 @@
 										</picture>
 										<!-- <img src="img/about2.png" alt=""> -->
 									</span>
-									<h3 class="box-title">Doublage</h3>
+									<h3 class="box-title">डब करना</h3>
 								</div>
 								<div class="box-content">
 									<ul>
-										<li>Création d&#39;une<br> transcription de la vidéo</li>
-										<li>Traduction et localisation<br> des scripts</li>
-										<li>Recherche des<br> meilleures voix</li>
+										<li>वीडियो की एक ट्रांस्क्रिप्ट<br> तैयार करना।</li>
+										<li>स्क्रिप्ट का अनुवाद और<br> स्थानीयकरण करना।</li>
+										<li>बेहतरीन आवाजें<br> खोज़ना।</li>
 									</ul>
 								</div>
 							</div>
@@ -233,13 +234,13 @@
 										</picture>
 										<!-- <img src="img/about3.png" alt=""> -->
 									</span>
-									<h3 class="box-title">Montage</h3>
+									<h3 class="box-title">एडिटिंग</h3>
 								</div>
 								<div class="box-content">
 									<ul>
-										<li>Adaptation de la vidéo<br> en d’autres langues</li>
-										<li>Création de clips-vidéo adaptés<br class="ita-br1"> pour les algorithmes YouTube</li>
-										<li>Ajout de nouveaux éléments<br> audio et vidéo</li>
+										<li>नई भाषाओं में वीडियो<br> का रूपांतरण करना।</li>
+										<li>यू-ट्यूब एल्गोरिदम के अनुरूप<br> अनोखे वीडियो तैयार करना।</li>
+										<li>नए ऑडियो और वीडियो<br> तत्वों को जोड़ना।</li>
 									</ul>
 								</div>
 							</div>
@@ -252,13 +253,13 @@
 										</picture>
 										<!-- <img src="img/about4.png" alt=""> -->
 									</span>
-									<h3 class="box-title">Publication</h3>
+									<h3 class="box-title">पब्लिशिंग</h3>
 								</div>
 								<div class="box-content">
 									<ul>
-										<li>Analyse des meilleurs<br> пparamètres de publication</li>
-										<li>Affichage d&#39;écrans de<br> fin et de playlists</li>
-										<li>Recueil de nuages de<br> tags pour chaque langue</li>
+										<li>प्रकाशन के लिए सर्वोत्तम<br> सेटिंग्स का विश्लेषण करना।	</li>
+										<li>समापन स्क्रीन और प्लेलिस्ट<br> पर काम करना।</li>
+										<li>प्रत्येक भाषा के लिए टैग<br> क्लाउड इकट्ठा करना।</li>
 									</ul>
 								</div>
 							</div>
@@ -271,13 +272,13 @@
 										</picture>
 										<!-- <img src="img/about5.png" alt=""> -->
 									</span>
-									<h3 class="box-title">Promotion</h3>
+									<h3 class="box-title">प्रचार</h3>
 								</div>
 								<div class="box-content">
 									<ul>
-										<li>Mise en œuvre de la meilleure approche<br class="ita-br1"> pour figurer dans les «recommandations»</li>
-										<li>Redirection du trafic à partir<br class="por-br1"> d&#39;autres chaînes actives</li>
-										<li>Utilisation d&#39;AdWords<br> et d&#39;autres plateformes</li>
+										<li>अनुशंसित भाग तक पहुंचने के लिए सबसे<br> अच्छा तरीका लागू करना।</li>
+										<li>अन्य सक्रिय चैनलों से ट्रैफ़िक<br> को संचालित करना।</li>
+										<li>ऐडवर्ड्स और अन्य प्लेटफार्मों<br> के साथ काम करना।</li>
 									</ul>
 								</div>
 							</div>
@@ -290,13 +291,13 @@
 										</picture>
 										<!-- <img src="img/about6.png" alt=""> -->
 									</span>
-									<h3 class="box-title">Analyse</h3>
+									<h3 class="box-title">विश्लेषण करना</h3>
 								</div>
 								<div class="box-content">
 									<ul>
-										<li>Détermination de la meilleure<br> stratégie pour assurer la promotion</li>
-										<li>Choix du meilleur<br> contenu à traduire</li>
-										<li>Utilisation d&#39;outils d’analyse pour<br class="ita-br1"> stimuler la croissance de votre chiffre d’affaires</li>
+										<li>प्रचार की सर्वोत्तम रणनीति<br> निर्धारित करना ।</li>
+										<li>अनुवाद के लिए आपका<br> सर्वोत्तम कॉन्टेंट चुनना।</li>
+										<li>व्यूज वृद्धि के एनालिटिक्स<br> पर काम करना।</li>
 									</ul>
 								</div>
 							</div>
@@ -306,12 +307,12 @@
 			</section>
 			<section id="profit" class="kr-section kr-section_profit" data-aos="fade-in">
 				<div class="container">
-					<h2>Découvrez le chiffre d’affaires<br class="ita-br1"> que générera votre contenu traduit dans d&#39;autres langues</h2>
-					<h3>Calculateur du chiffre d’affaires généré par la chaîne YouTube</h3>
+					<h2>अन्य भाषाओं में अनुवादितहोने पर आपका कॉन्टेंट क्या<br> आय उत्पन्न करेगा, इसका पता&nbsp;लगाएं।</h2>
+					<h3>यू ट्यूब चैनल के लिए आय कैलकुलेटर।</h3>
 
 					<div class="profit-calculator" data-aos="zoom-in">
 						<div class="pc-quantity">
-							<span class="h4">Nombre de visionnages payants<br class="chi-br1"> pour chaque chaîne</span>
+							<span class="h4">प्रत्येक चैनल के लिए<br>  कमर्शियल व्युज़ की संख्या।</span>
 							<div class="range-nav">
 								<span class="range-left"><span>‹</span></span>
                             	<span class="range-right"><span>›</span></span>
@@ -328,28 +329,28 @@
 						</div>
 						<div class="pc-languages">
 							<ul>
-								<li><span class="pc-lang-title">Anglais</span><span class="pc-lang-price" data-price="3900">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Japonais</span><span class="pc-lang-price" data-price="3600">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Français</span><span class="pc-lang-price" data-price="3300">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Allemand</span><span class="pc-lang-price" data-price="3200">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Coréen</span><span class="pc-lang-price" data-price="3000">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Italien</span><span class="pc-lang-price" data-price="2400">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Chinois</span><span class="pc-lang-price" data-price="1500">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">अंग्रेज़ी</span><span class="pc-lang-price" data-price="3900">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">जापानी</span><span class="pc-lang-price" data-price="3600">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">फ्रेंच</span><span class="pc-lang-price" data-price="3300">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">जर्मन</span><span class="pc-lang-price" data-price="3200">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">कोरियन</span><span class="pc-lang-price" data-price="3000">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">इटालियन</span><span class="pc-lang-price" data-price="2400">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">चाइनीज</span><span class="pc-lang-price" data-price="1500">$<span></span>*</span></li>
 							</ul>
 							<ul>
-								<li><span class="pc-lang-title">Espagnol</span><span class="pc-lang-price" data-price="1100">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Portugais</span><span class="pc-lang-price" data-price="1000">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Russe</span><span class="pc-lang-price" data-price="900">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Arabe</span><span class="pc-lang-price" data-price="800">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Vietnamien</span><span class="pc-lang-price" data-price="700">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Indonésien</span><span class="pc-lang-price" data-price="600">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Hindi</span><span class="pc-lang-price" data-price="400">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">स्पेनिश</span><span class="pc-lang-price" data-price="1100">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">पुर्तगाली</span><span class="pc-lang-price" data-price="1000">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">रशियन</span><span class="pc-lang-price" data-price="900">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">अरबी</span><span class="pc-lang-price" data-price="800">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">वियतनामी</span><span class="pc-lang-price" data-price="700">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">इन्डोनेशियाई</span><span class="pc-lang-price" data-price="600">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">हिन्दी</span><span class="pc-lang-price" data-price="400">$<span></span>*</span></li>
 							</ul>
 						</div>
-						<div class="pc-subtotal"><span>Total</span><span>$<span></span>*</span></div>
-						<div class="pc-request"><button>Envoyer une demande</button></div>
+						<div class="pc-subtotal"><span>टोटल</span><span>$<span></span>*</span></div>
+						<div class="pc-request"><button>एक अनुरोध करे।</button></div>
 					</div>
-					<span>* Tous les calculs sont des approximations<br> qui varient en fonction du sujet de&nbsp;votre&nbsp;contenu</span>
+					<span>*सभी  गणना अनुमानित हैं और  आपके	 <br> कॉन्टेंट के विषय पर निर्भर करती हैं।</span>
 				</div>
 			</section>
 			<section id="audience" class="kr-section kr-section_audience">
@@ -373,28 +374,28 @@
 						</ul>
 					</div>
 					<div class="audience-info">
-						<span><strong>Krakatau</strong> a une audience de 3,8 <br class="por-br1"> milliards de personnes</span>
-						<button>Envoyer une demande</button>
+						<span>क्रकाताऊ के पास 3॰8<br> बिलियन की दर्शक <br>संख्या है।</span>
+						<button>एक अनुरोध करे।</button>
 					</div>
 				</div>
 			</section>
 			<section id="infographics" class="kr-section kr-section_infographics" data-aos="fade-in">
 				<div class="container">
-					<h2>Tableau de l&#39;accroissement du chiffre <br>d’affaires pour de nouvelles langues</h2>
-					<span class="h4">Cas réels de nos partenaires</span>
+					<h2>नई भाषा के लिए आय<br> वृद्धि का चार्ट।</h2>
+					<span class="h4">हमारे सहयोगियों के वास्तविक मामलें।</span>
 
 					<div class="infographics-slider owl-carousel">
 						<div class="item item-1" data-aos="zoom-in">
 							<div class="is-author">
 								<img class="owl-lazy" data-src="img/chanel1.png" alt="author">
-								<span>Identité floutée<br> à la demande du propriétaire</span>
+								<span>मालिक के अनुरोध पर<br> गोपनीय रखा गया है। </span>
 							</div>
 							<div class="is-graphic">
-								<span class="is-title">Divertissement</span>
+								<span class="is-title">मनोरंजन</span>
 
 								<picture loading="lazy" class="lazy">
-								  <source srcset="img/infographics1-fre.webp" type="image/webp"> 
-								  <img src="img/infographics1-fre.png" alt="graphic">
+								  <!-- <source srcset="img/infographics1-hin.webp" type="image/webp">  -->
+								  <img src="img/infographics1-hin.png" alt="graphic">
 								</picture>
 
 								<!-- <img src="img/infographics1.png" alt="graphic"> -->
@@ -403,14 +404,14 @@
 						<div class="item item-2" data-aos="zoom-in">
 							<div class="is-author">
 								<img class="owl-lazy" data-src="img/chanel2.png" alt="author">
-								<span>Identité floutée <br>à la demande du propriétaire </span>
+								<span>मालिक के अनुरोध पर<br> गोपनीय रखा गया है। </span>
 							</div>
 							<div class="is-graphic">
-								<span class="is-title">Bricolage</span>
+								<span class="is-title">स्वयं करे।</span>
 
 								<picture loading="lazy" class="lazy">
-								  <source srcset="img/infographics2-fre.webp" type="image/webp"> 
-								  <img src="img/infographics2-fre.png" alt="graphic">
+								  <!-- <source srcset="img/infographics2-hin.webp" type="image/webp">  -->
+								  <img src="img/infographics2-hin.png" alt="graphic">
 								</picture>
 
 								<!-- <img src="img/infographics2.png" alt="graphic"> -->
@@ -419,14 +420,14 @@
 						<div class="item item-3" data-aos="zoom-in">
 							<div class="is-author">
 								<img class="owl-lazy" data-src="img/chanel3.png" alt="author">
-								<span>Identité floutée <br>à la demande du propriétaire </span>
+								<span>मालिक के अनुरोध पर<br> गोपनीय रखा गया है। </span>
 							</div>
 							<div class="is-graphic">
-								<span class="is-title">Beauté</span>
+								<span class="is-title">सौंदर्य</span>
 
 								<picture loading="lazy" class="lazy">
-								  <source srcset="img/infographics3-fre.webp" type="image/webp"> 
-								  <img src="img/infographics3-fre.png" alt="graphic">
+								  <!-- <source srcset="img/infographics3-hin.webp" type="image/webp">  -->
+								  <img src="img/infographics3-hin.png" alt="graphic">
 								</picture>
 
 								<!-- <img src="img/infographics3.png" alt="graphic"> -->
@@ -435,14 +436,14 @@
 						<div class="item item-4" data-aos="zoom-in">
 							<div class="is-author">
 								<img class="owl-lazy" data-src="img/chanel4.png" alt="author">
-								<span>Identité floutée <br>à la demande du propriétaire </span>
+								<span>मालिक के अनुरोध पर<br> गोपनीय रखा गया है। </span>
 							</div>
 							<div class="is-graphic">
-								<span class="is-title">Jeux vidéo en ligne</span>
+								<span class="is-title">गेमिंग</span>
 
 								<picture loading="lazy" class="lazy">
-								  <source srcset="img/infographics4-fre.webp" type="image/webp"> 
-								  <img src="img/infographics4-fre.png" alt="graphic">
+								  <!-- <source srcset="img/infographics4-hin.webp" type="image/webp">  -->
+								  <img src="img/infographics4-hin.png" alt="graphic">
 								</picture>
 
 								<!-- <img src="img/infographics4.png" alt="graphic"> -->
@@ -450,45 +451,44 @@
 						</div>
 					</div>
                     <span class="is-chanels">
-                        <span class="chanel">Revenu engrangé par la chaîne principale</span>
-                        <span class="chanel">Revenu engrangé par les chaînes traduites</span>
+                        <span class="chanel">मुख्य चैनल से आय।</span>
+                        <span class="chanel">अनुवादित चैनलों से आय।</span>
                     </span>
 				</div>
 			</section>
 			<section id="contact-us" class="kr-section kr-section_contact-us" data-aos="fade-in">
                 <div class="reasons">
                     <div class="container">
-                        <span class="h2">Pourquoi nous ?</span>
+                        <span class="h2">हम ही क्यों?</span>
                         <div class="reasons-info">
-                            <p>Nous avons une grande expérience de la traduction professionnelle et de la mise en ligne de chaînes étrangères</p>
-                            <p>Nous prenons à notre charge tous les frais de traduction, localisation et promotion</p>
-                            <p>Nous ne retenons que les langues les plus rentables générant le maximum de chiffre d’affaires</p>
-                            <p>Tous les mois, nous publions des statistiques transparentes relatives à toutes les chaînes</p>
+                            <p>पेशेवर अनुवाद के साथ व्यापक अनुभव और विदेशी चैनलों के विकास करने की क्षमता।</p>
+                            <p>हम अनुवाद, स्थानीयकरण और प्रचार के सभी खर्चों को कवर करते हैं।</p>
+                            <p>सबसे अधिक लाभदायक भाषा समूहों के साथ काम करना जो अधिक से अधिक आय उत्पन्न करती हैं।</p>
+                            <p>सभी चैनलों के लिए पारदर्शी मासिक आंकड़े प्रदान करना`।</p>
                         </div>
 
                         <div class="reasons-profit">
                             <span class="profit-arrow" data-aos="flip-down"><img class="lazy" data-src="img/green-arrow.png" alt="arrow"></span>
-                            <span>Vous obtenez des</span>
-                            <img class="lazy" data-src="img/text9.png" alt="profit" data-aos="zoom-in">
-                            <span>sans perdre de temps <br>
-                                ou d&#39;argent</span>
+                            <span>आपको समय या पैसा खर्च किए बिना</span>
+                            <img class="lazy" data-src="img/text10.png" alt="profit" data-aos="zoom-in">
+                            <span>मिलता हैं।</span>
                         </div>
                     </div>
                 </div>
                 <div class="contact-us">
                     <div class="container">
-                        <span class="h2">Écrivez-nous</span>
-                        <span class="h4">pour gagner plus</span>
+                        <span class="h2">अधिक आय के लिए</span>
+                        <span class="h4">हमें संपर्क करे।</span>
 
 						<form action="" method="post" novalidate>
-                            <input type="text" name="name" id="input_name" placeholder="Votre nom" aria-label="name">
+                            <input type="text" name="name" id="input_name" placeholder="आपका नाम" aria-label="name">
                             <div class="contact-social">
                                 <div class="social-inputs">
-                                    <input class="input-telegram active" type="text" name="telegram" placeholder="Votre Telegram" aria-label="telegram">
-                                    <input class="input-whatsapp" type="text" name="whatsapp" placeholder="Votre Whatsapp" aria-label="whatsapp">
-                                    <input class="input-messenger" type="text" name="messenger" placeholder="Votre Messenger" aria-label="messenger">
-                                    <input class="input-instagram" type="text" name="instagram" placeholder="Votre Instagram" aria-label="instagram">
-                                    <input class="input-skype" type="text" name="skype" placeholder="Votre Skype" aria-label="skype">
+                                    <input class="input-telegram active" type="text" name="telegram" placeholder="आपका टेलीग्राम" aria-label="telegram">
+                                    <input class="input-whatsapp" type="text" name="whatsapp" placeholder="आपका व्हाट्सएप" aria-label="whatsapp">
+                                    <input class="input-messenger" type="text" name="messenger" placeholder="आपका मेसेंजर" aria-label="messenger">
+                                    <input class="input-instagram" type="text" name="instagram" placeholder="आपका इंस्टाग्राम" aria-label="instagram">
+                                    <input class="input-skype" type="text" name="skype" placeholder="आपका स्काइप" aria-label="skype">
                                 </div>
                                 <div class="social-links">
                                     <ul>
@@ -500,12 +500,12 @@
                                     </ul>
                                 </div>
                             </div>
-                            <input type="email"  id="input_email" name="email" placeholder="Votre E-mail" aria-label="email">
-                            <input type="text"  id="input_link" name="link" placeholder="Lien vers votre chaîne YouTube" aria-label="youtube">
+                            <input type="email"  id="input_email" name="email" placeholder="आपका ईमेल" aria-label="email">
+                            <input type="text"  id="input_link" name="link" placeholder="आपकी यू ट्यूब चैनल का लिंक" aria-label="youtube">
 
-							<input type="submit" name="submit" onClick="return dataField(this.form);" value="Envoyer une demande">
+							<input type="submit" name="submit" onClick="return dataField(this.form);" value="एक अनुरोध करे।">
                         </form>
-                        <span>Nous vous garantissons la<br> confidentialité de vos informations.</span>
+                        <span>हम आपकी जानकारी की<br> गोपनीयता की गारंटी देते हैं।</span>
                     </div>
                 </div>
 			</section>
@@ -524,7 +524,7 @@
 						<div class="foo-kr-youtube"><a href="https://servicesdirectory.withyoutube.com/directory?page_size=12&page=1" target="_blank"><img class="lazy" data-src="img/youtube.png" alt="youtube"></a></div>
 					</div>
 					<div class="footer-email">
-						<span>Des questions à nous poser ?</span>
+						<span>कोई प्रश्न हैं?</span>
 					</div>
 				</div>
 				<div class="footer-copyright">2020 © Krakatau All rights reserved</div>
@@ -533,17 +533,17 @@
 
 		<div class="kr-request">
 			<div class="kr-request-content">
-				<span class="h2">Écrivez-nous <span>pour gagner plus</span></span>
+				<span class="h2">अधिक आय के लिए <span>हमें संपर्क करे।</span></span>
 				<form method="post" novalidate>
-					<input type="text"   id="input_name2" name="name" placeholder="Votre nom" aria-label="name">
+					<input type="text"   id="input_name2" name="name" placeholder="आपका नाम" aria-label="name">
 					<!-- <input type="text"   id="input_messenger2" name="messenger" placeholder="Мессенджер"> -->
 					<div class="contact-social">
                         <div class="social-inputs">
-                            <input id="input_telegram2"  class="input-telegram active" type="text" name="telegram" placeholder="Votre Telegram" aria-label="telegram">
-                            <input id="input_whatsapp2"  class="input-whatsapp" type="text" name="whatsapp" placeholder="Votre Whatsapp" aria-label="whatsapp">
-                            <input id="input_messenger2" class="input-messenger" type="text" name="messenger" placeholder="Votre Messenger" aria-label="messenger">
-                            <input id="input_instagram2" class="input-instagram" type="text" name="instagram" placeholder="Votre Instagram" aria-label="instagram">
-                            <input id="input_skype2"     class="input-skype" type="text" name="skype" placeholder="Votre Skype" aria-label="skype">
+                            <input id="input_telegram2"  class="input-telegram active" type="text" name="telegram" placeholder="आपका टेलीग्राम" aria-label="telegram">
+                            <input id="input_whatsapp2"  class="input-whatsapp" type="text" name="whatsapp" placeholder="आपका व्हाट्सएप" aria-label="whatsapp">
+                            <input id="input_messenger2" class="input-messenger" type="text" name="messenger" placeholder="आपका मेसेंजर" aria-label="messenger">
+                            <input id="input_instagram2" class="input-instagram" type="text" name="instagram" placeholder="आपका इंस्टाग्राम" aria-label="instagram">
+                            <input id="input_skype2"     class="input-skype" type="text" name="skype" placeholder="आपका स्काइप" aria-label="skype">
                         </div>
                         <div class="social-links">
                             <ul>
@@ -555,35 +555,35 @@
                             </ul>
                         </div>
                     </div>
-					<input type="text"  id="input_email2" name="email" placeholder="Votre E-mail" aria-label="email">
-					<input type="text"   id="input_link2" name="link" placeholder="Lien vers votre chaîne YouTube" aria-label="youtube">
-					<input id="submit" type="submit" name="submit" onClick="return dataField2(this.form);" value="Envoyer une demande">
+					<input type="text"  id="input_email2" name="email" placeholder="आपका ईमेल" aria-label="email">
+					<input type="text"   id="input_link2" name="link" placeholder="आपकी यू ट्यूब चैनल का लिंक" aria-label="youtube">
+					<input id="submit" type="submit" name="submit" onClick="return dataField2(this.form);" value="एक अनुरोध करे।">
 				</form>
 			</div>
 		</div>
 		<div id="popup" class="kr-request request-thanks">
 			<div class="kr-request-content-thanks">
-				<span class="h2" style="margin:0;">Merci! Nous vous contacterons d&#39;ici peu.</span>
+				<span class="h2" style="margin:0;">धन्यवाद! हम आपसे जल्द संपर्क करेंगे।</span>
 			</div>
 		</div>
         
         <div class="kr-lang-popup">
         	<div class="kr-lang-popup-content">
         		<ul>
-        			<li><a href="/m_content/krakatau/index-eng.php">Anglais</a></li>
-					<li><a href="/m_content/krakatau/index-spa.php">Espagnol</a></li>
-					<li><a href="/m_content/krakatau/index-hin.php">Hindi</a></li>
-					<li><a href="/m_content/krakatau/index-ara.php">Arabe</a></li>
-					<li><a href="/m_content/krakatau">Russe</a></li>
-					<li class="active">Français</li>
-					<li><a href="/m_content/krakatau/index-por.php">Portugais</a></li>
-					<li><a href="/m_content/krakatau/index-ind.php">Indonésien</a></li>
-					<li><a href="/m_content/krakatau/index-chi.php">Chinois</a></li>
-					<li><a href="/m_content/krakatau/index-deu.php">Allemand</a></li>
-					<li><a href="/m_content/krakatau/index-jpn.php">Japonais</a></li>
-					<li><a href="/m_content/krakatau/index-ita.php">Italien</a></li>
-					<li><a href="/m_content/krakatau/index-vie.php">Vietnamien</a></li>
-					<li><a href="/m_content/krakatau/index-kor.php">Coréen</a></li>
+        			<li><a href="/en">अंग्रेज़ी</a></li>
+					<li><a href="/sp">स्पेनिश</a></li>
+					<li class="active">हिन्दी</li>
+					<li><a href="/ar">अरबी</a></li>
+					<li><a href="/m_content/krakatau">रशियन</a></li>
+					<li><a href="/fr">फ्रेंच</a></li>
+					<li><a href="/po">पुर्तगाली</a></li>
+					<li><a href="/in">इन्डोनेशियाई</a></li>
+					<li><a href="/ch">चाइनीज</a></li>
+					<li><a href="/de">जर्मन</a></li>
+					<li><a href="/jp">जापानी</a></li>
+					<li><a href="/it">इटालियन</a></li>
+					<li><a href="/vi">वियतनामी</a></li>
+					<li><a href="/ko">कोरियन</a></li>
         		</ul>
         	</div>
         </div>

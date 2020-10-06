@@ -6724,34 +6724,46 @@ $(function(){
 
 	$(window).on('load', function(){
 
-		$.ajax({
-		  url: 'http://ninesquares.biz/m_content/krakatau/audience.php',
-		  context: document.body
-		}).done(function(data) {
-			$('#audience .container').prepend(data);
+		setTimeout(function (){
+			$.ajax({
+				url: location.origin + '/img/image-php/image1.php',
+				cache: true,
+				success: function (response) {
+					$('#insertimage1').html(response);
+				}
+			})
 
-			if(audience.length)
-			{
-				audience.find('.audience-choose ul li:nth-child(1)').addClass('active');
-				audienceLang('Eng', $('section#audience'));
+			$.ajax({
+				url: location.origin + '/audience.php',
+				cache: true,
+				context: document.body
+			}).done(function(data) {
+				$('#audience .container').prepend(data);
 
-				audience.find('.audience-choose ul li').each(function(){
-					$(this).attr('data-offset-left', $(this).offset().left);
-				});
+				if(audience.length)
+				{
+					audience.find('.audience-choose ul li:nth-child(1)').addClass('active');
+					audienceLang('Eng', $('section#audience'));
 
-				audience.find('.audience-choose ul li').on('click tap', function(){
-					audience.find('.audience-choose ul li').removeClass('active');
-					$(this).addClass('active');
+					audience.find('.audience-choose ul li').each(function(){
+						$(this).attr('data-offset-left', $(this).offset().left);
+					});
 
-					if($(window).width()<415)
-					{
-						scrollLeft = $(this).attr('data-offset-left') - ($(window).width()/2) + 37.5;
+					audience.find('.audience-choose ul li').on('click tap', function(){
+						audience.find('.audience-choose ul li').removeClass('active');
+						$(this).addClass('active');
+
+						if($(window).width()<415)
+						{
+							scrollLeft = $(this).attr('data-offset-left') - ($(window).width()/2) + 37.5;
 							$('.audience-choose').animate({scrollLeft:scrollLeft}, 400);
-					}
+						}
 
-					audienceLang($(this).text(), $('section#audience'));
-				});
-			}
-		});
+						audienceLang($(this).text(), $('section#audience'));
+					});
+				}
+			});
+		}, 1000)
+
 	});
 });

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="ja">
 <head>
 	<link rel="preconnect" href="https://cdn.jsdelivr.net" />
 	<link rel="prefetch" href="img/logo.webp">
@@ -9,8 +9,8 @@
 	<link rel="alternate" href="https://air.io/krakatau" hreflang="ru" />
     <link rel="alternate" href="https://air.io/en/krakatau" hreflang="en" />
 
-    <title>Übersetzungs-Dienst für YouTube-Kanäle KRAKATAU</title>
-	<meta name="description" content="Übersetze deine Inhalte in die 14 beliebtesten Sprachen mit höchstem CPM für Gewinnwachstum. :white_check_mark: Deine YouTube-Inhalte erobern die ganze Welt!">
+    <title>YouTubeチャンネル翻訳・ローカラ イゼーションサービスKRAKATAU</title>
+	<meta name="description" content="14の主要言語であなたのコンテンツ をローカライズして、増収を目指し て最高のCPMを達成しましょう。:white_check_mark:Youtubeコンテンツで世界を制覇し ましょう！">
 
     <link rel="stylesheet" href="css/site-bundle.css">
     <link rel="stylesheet" href="css/style.min.css">
@@ -35,6 +35,7 @@
     <script defer src="js/site-bundle.js"></script>
     <script defer src="js/main.js"></script>
 
+
     <style>
         .kr-section_welcome
         {
@@ -55,13 +56,13 @@
 }else {
     $bodyclass = '';
 }?>
-<body class="<?=$bodyclass?> index-deu">
+<body class="<?=$bodyclass?> index-jpn">
 	<div id="wrapper">
 		<header class="kr-header" style="background-color: #1b1c1c;">
 			<div class="container">
 				<div class="kr-header__left">
 					<div class="kr-header__logo" data-aos="fade-right">
-						<a href="/m_content/krakatau/">
+						<a href="/">
 							<picture>
 							  <source srcset="img/logo.webp" type="image/webp"> 
 							  <img src="img/logo.png" alt="logo">
@@ -75,14 +76,14 @@
 				<div class="kr-header__right" data-aos="fade-left" data-aos-delay="700">
 					<div class="kr-header__mainmenu">
 					<ul>
-						<li><a href="#about">Wie es funktioniert</a></li>
-						<li><a href="#profit">Gewinn</a></li>
-						<li><a href="#audience">Zielgruppe</a></li>
-						<li><a href="#infographics">Fallbeispiele</a></li>
-						<li><a href="#team">Unser Team</a></li>
+						<li><a href="#about">サービスの仕組み</a></li>
+						<li><a href="#profit">収益</a></li>
+						<li><a href="#audience">視聴者数</a></li>
+						<li><a href="#infographics">事例</a></li>
+						<li><a href="#team">私たちのチーム</a></li>
 					</ul>
 					<div class="kr-header__nav-contact">
-						<button>Kontaktiere uns</button>
+						<button>お問い合わせ</button>
 					</div>
 				</div>
 					<div class="kr-header__trigger"></div>
@@ -99,14 +100,14 @@
 				</div>
 				<div class="kr-header__nav">
 					<ul>
-						<li><a href="#about">Wie es funktioniert</a></li>
-						<li><a href="#profit">Gewinn</a></li>
-						<li><a href="#audience">Zielgruppe</a></li>
-						<li><a href="#infographics">Fallbeispiele</a></li>
-						<li><a href="#team">Unser Team</a></li>
+						<li><a href="#about">サービスの仕組み</a></li>
+						<li><a href="#profit">収益</a></li>
+						<li><a href="#audience">視聴者</a></li>
+						<li><a href="#infographics">事例</a></li>
+						<li><a href="#team">私たちのチーム</a></li>
 					</ul>
 					<div class="kr-header__nav-contact">
-						<button>Kontaktiere uns</button>
+						<button>お問い合わせ</button>
 					</div>
 				</div>
 			</div>
@@ -114,30 +115,30 @@
 		<div class="main">
 			<div class="kr-languages">
 				<ul data-aos="slide-down" data-aos-delay="1500">
-					<li><a href="/m_content/krakatau/index-eng.php">Eng</a></li>
-					<li><a href="/m_content/krakatau/index-spa.php">Spa</a></li>
-					<li><a href="/m_content/krakatau/index-hin.php">Hin</a></li>
-					<li><a href="/m_content/krakatau/index-ara.php">Ara</a></li>
-					<li><a href="/m_content/krakatau/index.php">Rus</a></li>
-					<li><a href="/m_content/krakatau/index-fre.php">Fre</a></li>
-					<li><a href="/m_content/krakatau/index-por.php">Por</a></li>
-					<li><a href="/m_content/krakatau/index-ind.php">Ind</a></li>
-					<li><a href="/m_content/krakatau/index-chi.php">Chi</a></li>
-					<li class="active">Deu</li>
-					<li><a href="/m_content/krakatau/index-jpn.php">Jpn</a></li>
-					<li><a href="/m_content/krakatau/index-ita.php">Ita</a></li>
-					<li><a href="/m_content/krakatau/index-vie.php">Vie</a></li>
-					<li><a href="/m_content/krakatau/index-kor.php">Kor</a></li>
+					<li><a href="/en">Eng</a></li>
+					<li><a href="/sp">Spa</a></li>
+					<li><a href="/hi">Hin</a></li>
+					<li><a href="/ar">Ara</a></li>
+					<li><a href="/ru">Rus</a></li>
+					<li><a href="/fr">Fre</a></li>
+					<li><a href="/po">Por</a></li>
+					<li><a href="/in">Ind</a></li>
+					<li><a href="/ch">Chi</a></li>
+					<li><a href="/de">Deu</a></li>
+					<li class="active">Jpn</li>
+					<li><a href="/it">Ita</a></li>
+					<li><a href="/vi">Vie</a></li>
+                    <li><a href="/ko">Kor</a></li>
 				</ul>
 			</div>
 			<section id="welcome" class="kr-section kr-section_welcome">
 				<div class="container">
-					<h1 data-aos="fade-left" data-aos-delay="1000" data-aos-anchor-placement="top-bottom">Riesige Gewinne <span>auf deine</span><br> YouTube-Inhalte</h1>
-					<span class="only-for" style="display: block" data-aos="fade-right" data-aos-delay="1000" data-aos-anchor-placement="top-bottom">Angebot für Kanäle mit über<br> 300K Abonnenten!</span>
+					<h1 data-aos="fade-left" data-aos-delay="1000" data-aos-anchor-placement="top-bottom">あなたの<span>YouTube</span><br class="por-br1">コンテンツで最高<br>の収益を</h1>
+					<span class="only-for" style="display: block" data-aos="fade-right" data-aos-delay="1000" data-aos-anchor-placement="top-bottom">チャンネル登録者数30万<br>人以上の方向けのオファー！</span>
 
 					<div class="welcome-info" data-aos="zoom-in" data-aos-delay="1000">
-						1 Sprache = 1 Einnahmequelle<br>
-						<span>14 Sprachen = 14 Einnahmequellen</span>
+						1言語=1つの収入源<br>
+						<span>14言語=14の収入源</span>
 					</div>
 
 					<div class="welcome-map" data-aos="fade-in" data-aos-delay="1000" data-aos-anchor-placement="top-bottom">
@@ -145,7 +146,7 @@
                             <div class="crm-content">
                                 <span class="crm-country"></span>
                                 <span class="crm-price">$<span></span></span>
-                                <p>CPM für eine Million kommerzieller Views</p>
+                                <p>広告100万回<br>再生あたりのCPM</p>
                             </div>
                         </div>
                         <div class="map-mobilenav">
@@ -182,11 +183,8 @@
 				<div class="about-content">
 					<div class="container">
 						<div class="about-content__info" data-aos="fade-in">
-							<span>Hast du einen Kanal mit coolen Inhalten?</span>
-							<h2>Dank <strong>Krakatau</strong> können<br>
-							deine Inhalte auf jedem<br>
-							Kontinent gehört, gesehen,<br>
-							verstanden und geliebt&nbsp;werden!<br></h2>
+							<span>クールなコンテンツのチャン<br>ネルをお持ちですか？</span>
+							<h2><strong>Krakatau</strong>を使えば、あなたのコ<br class="jpn-br1">ンテンツをどんな国の人にも聞いて・見て・理解し<br class="jpn-br1">て・好きになってもらえます！</h2>
 						</div>
 						<div class="about-content__boxes">
 							<div class="about-content__box" data-aos="fade-up">
@@ -198,13 +196,13 @@
 										</picture>
 										<!-- <img src="img/about1.png" alt=""> -->
 									</span>
-									<h3 class="box-title">Übersetzung</h3>
+									<h3 class="box-title">翻訳</h3>
 								</div>
 								<div class="box-content">
 									<ul>
-										<li>Potenzialanalyse<br> deiner Inhalte</li>
-										<li>Bestimmung der Wettbewerbsfähigkeit<br> in anderen Sprachen</li>
-										<li>Strategieentwicklung zum<br> Aufbau neuer Kanäle</li>
+										<li>あなたのコンテンツの<br>潜在能力を分析</li>
+										<li>多言語での競争<br>有利性を判断</li>
+										<li>新チャンネルの立ち<br>上げ戦略を作成</li>
 									</ul>
 								</div>
 							</div>
@@ -217,13 +215,13 @@
 										</picture>
 										<!-- <img src="img/about2.png" alt=""> -->
 									</span>
-									<h3 class="box-title">Synchronisierung</h3>
+									<h3 class="box-title">吹替</h3>
 								</div>
 								<div class="box-content">
 									<ul>
-										<li>Erstellung von Transkripten<br> aus dem Video</li>
-										<li>Übersetzung und Adaptierung<br> der Transkripte</li>
-										<li>Suche nach den<br> besten Stimmen</li>
+										<li>動画の書き起こし</li>
+										<li>書き起こした内<br>容を翻訳・ローカライズ</li>
+										<li>動画に合った<br>声を見つける</li>
 									</ul>
 								</div>
 							</div>
@@ -236,13 +234,13 @@
 										</picture>
 										<!-- <img src="img/about3.png" alt=""> -->
 									</span>
-									<h3 class="box-title">Bearbeitung</h3>
+									<h3 class="box-title">編集</h3>
 								</div>
 								<div class="box-content">
 									<ul>
-										<li>Anpassung des Videos<br> an neue Sprachen</li>
-										<li>Erstellung einzigartiger Videos<br> für den YouTube-Algorithmus</li>
-										<li>Hinzufügen neuer Audio-<br> und Video-Elemente</li>
+										<li>新しい言語に<br>動画を調整</li>
+										<li>YouTubeアルゴリズムに従ってユニーク なビデオを作成</li>
+										<li>新しい音声と動画の要素を追加</li>
 									</ul>
 								</div>
 							</div>
@@ -255,13 +253,13 @@
 										</picture>
 										<!-- <img src="img/about4.png" alt=""> -->
 									</span>
-									<h3 class="box-title">Veröffentlichung</h3>
+									<h3 class="box-title">公開</h3>
 								</div>
 								<div class="box-content">
 									<ul>
-										<li>Auswertung der besten<br> Veröffentlichungs-Einstellungen</li>
-										<li>Arbeit mit Endbildern<br> und Wiedergabelisten</li>
-										<li>Sammlung von Tag-Clouds<br> in jeder Sprache</li>
+										<li>公開に向けて最<br>適な設定を分析</li>
+										<li>終了画面とプレ<br>イリストを作成</li>
+										<li>言語ごとにタグ<br>クラウドを収集</li>
 									</ul>
 								</div>
 							</div>
@@ -274,13 +272,13 @@
 										</picture>
 										<!-- <img src="img/about5.png" alt=""> -->
 									</span>
-									<h3 class="box-title">Werbung</h3>
+									<h3 class="box-title">プロモーション</h3>
 								</div>
 								<div class="box-content">
 									<ul>
-										<li>Umsetzung des besten Ansatzes zur Erreichung<br> der gewünschten Abteilung</li>
-										<li>Umleitung des Datenverkehrs<br> von anderen aktiven Kanälen</li>
-										<li>Arbeit mit AdWords und<br> anderen Plattformen</li>
+										<li>おすすめ動画に表示さ<br>せるために最良な施策</li>
+										<li>他のアクティブなチャン<br>ネルからの流れを管理</li>
+										<li>AdWordsやその他<br>プラットフォームを活用</li>
 									</ul>
 								</div>
 							</div>
@@ -293,13 +291,13 @@
 										</picture>
 										<!-- <img src="img/about6.png" alt=""> -->
 									</span>
-									<h3 class="box-title">Analyse</h3>
+									<h3 class="box-title">分析</h3>
 								</div>
 								<div class="box-content">
 									<ul>
-										<li>Bestimmung der besten<br> Werbestrategie</li>
-										<li>Auswahl der besten Inhalte<br> für die Übersetzung</li>
-										<li>Arbeit mit Wachstumsanalysen<br> der Views</li>
+										<li>最適なプロモ<br>ーション戦略</li>
+										<li>翻訳する適したコン<br style="display: block;">テンツを選択</li>
+										<li>Growth Analyticsの視聴データを活用-&gt;視聴回数の伸びを分析</li>
 									</ul>
 								</div>
 							</div>
@@ -309,12 +307,12 @@
 			</section>
 			<section id="profit" class="kr-section kr-section_profit" data-aos="fade-in">
 				<div class="container">
-					<h2>Feststellung der potenziellen Gewinne durch die Übersetzung<br> deiner Inhalte in andere Sprachen</h2>
-					<h3>Einkommensrechner für den YouTube-Kanal</h3>
+					<h2>あなたのコンテンツを他の言語に翻訳した場合<br class="por-br1">どの程度収益が上がるか知りましょう</h2>
+					<h3>YouTubeチャンネル用収益計算</h3>
 
 					<div class="profit-calculator" data-aos="zoom-in">
 						<div class="pc-quantity">
-							<span class="h4">Anzahl der kommerziellen <br>Views auf jedem Kanal </span>
+							<span class="h4">チャンネル毎の広<br>告視聴回数</span>
 							<div class="range-nav">
 								<span class="range-left"><span>‹</span></span>
                             	<span class="range-right"><span>›</span></span>
@@ -331,28 +329,28 @@
 						</div>
 						<div class="pc-languages">
 							<ul>
-								<li><span class="pc-lang-title">Englisch</span><span class="pc-lang-price" data-price="3900">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Japanisch</span><span class="pc-lang-price" data-price="3600">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Französisch</span><span class="pc-lang-price" data-price="3300">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Deutsch</span><span class="pc-lang-price" data-price="3200">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Koreanisch</span><span class="pc-lang-price" data-price="3000">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Italienisch</span><span class="pc-lang-price" data-price="2400">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Chinesisch</span><span class="pc-lang-price" data-price="1500">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">英語</span><span class="pc-lang-price" data-price="3900">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">日本語</span><span class="pc-lang-price" data-price="3600">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">フランス語</span><span class="pc-lang-price" data-price="3300">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">ドイツ語</span><span class="pc-lang-price" data-price="3200">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">韓国語</span><span class="pc-lang-price" data-price="3000">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">イタリア語</span><span class="pc-lang-price" data-price="2400">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">中国語</span><span class="pc-lang-price" data-price="1500">$<span></span>*</span></li>
 							</ul>
 							<ul>
-								<li><span class="pc-lang-title">Spanisch</span><span class="pc-lang-price" data-price="1100">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Portugiesisch</span><span class="pc-lang-price" data-price="1000">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Russisch</span><span class="pc-lang-price" data-price="900">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Arabisch</span><span class="pc-lang-price" data-price="800">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Vietnamesisch</span><span class="pc-lang-price" data-price="700">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Indonesisch</span><span class="pc-lang-price" data-price="600">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Hindi</span><span class="pc-lang-price" data-price="400">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">スペイン語</span><span class="pc-lang-price" data-price="1100">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">ポルトガル語</span><span class="pc-lang-price" data-price="1000">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">ロシア語</span><span class="pc-lang-price" data-price="900">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">アラビア語</span><span class="pc-lang-price" data-price="800">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">ベトナム語</span><span class="pc-lang-price" data-price="700">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">インドネシア語</span><span class="pc-lang-price" data-price="600">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">ヒンディー語</span><span class="pc-lang-price" data-price="400">$<span></span>*</span></li>
 							</ul>
 						</div>
-						<div class="pc-subtotal"><span>Gesamt</span><span>$<span></span>*</span></div>
-						<div class="pc-request"><button>Eine Anfrage senden</button></div>
+						<div class="pc-subtotal"><span>全体</span><span>$<span></span>*</span></div>
+						<div class="pc-request"><button>リクエストを送る</button></div>
 					</div>
-					<span>* Alle Berechnungen sind Annäherungswerte<br class="deu-br1"> und hängen von den Themenbereichen<br class="deu-br1"> deiner Inhalte ab</span>
+					<span>*計算結果は全て概算で、実際の値はコンテンツのテーマよって異なります</span>
 				</div>
 			</section>
 			<section id="audience" class="kr-section kr-section_audience">
@@ -376,28 +374,28 @@
 						</ul>
 					</div>
 					<div class="audience-info">
-						<span><strong>Krakatau</strong> hat ein Publikum <br> über 3,8 Milliarden<br> Menschen</span>
-						<button>Eine Anfrage senden</button>
+						<span><strong>Krakatau</strong>には38億人<br>の視聴者がいます</span>
+						<button>リクエストを送る</button>
 					</div>
 				</div>
 			</section>
 			<section id="infographics" class="kr-section kr-section_infographics" data-aos="fade-in">
 				<div class="container">
-					<h2>Einnahmen-Wachstumstabelle<br> der neuen Sprachen</h2>
-					<span class="h4">Echte Fallbeispiele unserer Partner</span>
+					<h2>他言語での収<br>益成長グラフ</h2>
+					<span class="h4">パートナーの実例</span>
 
 					<div class="infographics-slider owl-carousel">
 						<div class="item item-1" data-aos="zoom-in">
 							<div class="is-author">
 								<img class="owl-lazy" data-src="img/chanel1.png" alt="author">
-								<span>Auf Wunsch des Eigentümers versteckt </span>
+								<span>オーナーの希望により非公開</span>
 							</div>
 							<div class="is-graphic">
-								<span class="is-title">Unterhaltung</span>
+								<span class="is-title">エンタメ</span>
 
 								<picture loading="lazy" class="lazy">
-								  <!-- <source srcset="img/infographics1-deu.webp" type="image/webp">  -->
-								  <img src="img/infographics1-deu.png" alt="graphic">
+								  <!-- <source srcset="img/infographics1-jpn.webp" type="image/webp">  -->
+								  <img src="img/infographics1-jpn.png" alt="graphic">
 								</picture>
 
 								<!-- <img src="img/infographics1.png" alt="graphic"> -->
@@ -406,14 +404,14 @@
 						<div class="item item-2" data-aos="zoom-in">
 							<div class="is-author">
 								<img class="owl-lazy" data-src="img/chanel2.png" alt="author">
-								<span>Auf Wunsch des Eigentümers versteckt </span>
+								<span>オーナーの希望により非公開</span>
 							</div>
 							<div class="is-graphic">
 								<span class="is-title">DIY</span>
 
 								<picture loading="lazy" class="lazy">
-								  <!-- <source srcset="img/infographics2-deu.webp" type="image/webp">  -->
-								  <img src="img/infographics2-deu.png" alt="graphic">
+								  <!-- <source srcset="img/infographics2-jpn.webp" type="image/webp">  -->
+								  <img src="img/infographics2-jpn.png" alt="graphic">
 								</picture>
 
 								<!-- <img src="img/infographics2.png" alt="graphic"> -->
@@ -422,14 +420,14 @@
 						<div class="item item-3" data-aos="zoom-in">
 							<div class="is-author">
 								<img class="owl-lazy" data-src="img/chanel3.png" alt="author">
-								<span>Auf Wunsch des Eigentümers versteckt </span>
+								<span>オーナーの希望により非公開 </span>
 							</div>
 							<div class="is-graphic">
-								<span class="is-title">Beauty</span>
+								<span class="is-title">ゲーム</span>
 
 								<picture loading="lazy" class="lazy">
-								  <!-- <source srcset="img/infographics3-deu.webp" type="image/webp">  -->
-								  <img src="img/infographics3-deu.png" alt="graphic">
+								  <!-- <source srcset="img/infographics3-jpn.webp" type="image/webp">  -->
+								  <img src="img/infographics3-jpn.png" alt="graphic">
 								</picture>
 
 								<!-- <img src="img/infographics3.png" alt="graphic"> -->
@@ -438,14 +436,14 @@
 						<div class="item item-4" data-aos="zoom-in">
 							<div class="is-author">
 								<img class="owl-lazy" data-src="img/chanel4.png" alt="author">
-								<span>Auf Wunsch des Eigentümers versteckt </span>
+								<span>オーナーの希望により非公開 </span>
 							</div>
 							<div class="is-graphic">
-								<span class="is-title">Gaming</span>
+								<span class="is-title">ゲーム</span>
 
 								<picture loading="lazy" class="lazy">
-								  <!-- <source srcset="img/infographics4-deu.webp" type="image/webp">  -->
-								  <img src="img/infographics4-deu.png" alt="graphic">
+								  <!-- <source srcset="img/infographics4-jpn.webp" type="image/webp">  -->
+								  <img src="img/infographics4-jpn.png" alt="graphic">
 								</picture>
 
 								<!-- <img src="img/infographics4.png" alt="graphic"> -->
@@ -453,45 +451,44 @@
 						</div>
 					</div>
                     <span class="is-chanels">
-                        <span class="chanel">Einkommen aus dem Hauptkanal</span>
-                        <span class="chanel">Einkommen aus den übersetzten Kanälen</span>
+                        <span class="chanel">メインチャンネルからの収入</span>
+                        <span class="chanel">翻訳チャンネルからの収入</span>
                     </span>
 				</div>
 			</section>
 			<section id="contact-us" class="kr-section kr-section_contact-us" data-aos="fade-in">
                 <div class="reasons">
                     <div class="container">
-                        <span class="h2">Warum wir?</span>
+                        <span class="h2">なぜKRAKATAUなのか？</span>
                         <div class="reasons-info">
-                            <p>Umfangreiches Erlebnis mit professioneller Übersetzung und Aufbau von fremdsprachigen Kanälen</p>
-                            <p>Wir kümmern uns um alles: Übersetzung, Anpassung und Werbungskosten</p>
-                            <p>Wir arbeiten mit den profitabelsten Sprachgruppen, um höchstmögliches Einkommen zu ermöglichen</p>
-                            <p>Wir stellen transparente, monatliche Statistiken zu allen Kanälen zur Verfügung</p>
+                            <p>プロの翻訳と海外向けチャンネルの展開の幅広い経験</p>
+                            <p>翻訳・ローカライゼーション・プロモーションにかかる費用を全てカバー</p>
+                            <p>最大の収益を生み出す最も収益性の高い言語に取り組む</p>
+                            <p>全てのチャンネルの誠実な月間統計データを提供</p>
                         </div>
 
                         <div class="reasons-profit">
                             <span class="profit-arrow" data-aos="flip-down"><img class="lazy" data-src="img/green-arrow.png" alt="arrow"></span>
-                            <span>Du bekommst</span>
-                            <img class="lazy" data-src="img/text3.png" alt="profit" data-aos="zoom-in">
-                            <span>ohne Zeit oder Geld<br>
-                                ausgeben zu müssen</span>
+                            <span>時間やコストをかけずに</span>
+                            <img class="lazy" data-src="img/text11.png" alt="profit" data-aos="zoom-in">
+                            <span>を!</span>
                         </div>
                     </div>
                 </div>
                 <div class="contact-us">
                     <div class="container">
-                        <span class="h2">Schreib uns,</span>
-                        <span class="h4">wenn du mehr verdienen möchtest</span>
+                        <span class="h2">収益向上のお手<br>伝いをします</span>
+                        <span class="h4">お気軽にお問い合わせください</span>
 
 						<form action="" method="post" novalidate>
-                            <input type="text" name="name" id="input_name" placeholder="Dein Name" aria-label="name">
+                            <input type="text" name="name" id="input_name" placeholder="お名前" aria-label="name">
                             <div class="contact-social">
                                 <div class="social-inputs">
-                                    <input class="input-telegram active" type="text" name="telegram" placeholder="Dein Telegram" aria-label="telegram">
-                                    <input class="input-whatsapp" type="text" name="whatsapp" placeholder="Dein WhatsApp" aria-label="whatsapp">
-                                    <input class="input-messenger" type="text" name="messenger" placeholder="Dein Messenger" aria-label="messenger">
-                                    <input class="input-instagram" type="text" name="instagram" placeholder="Dein Instagram" aria-label="instagram">
-                                    <input class="input-skype" type="text" name="skype" placeholder="Dein Skype" aria-label="skype">
+                                    <input class="input-telegram active" type="text" name="telegram" placeholder="Telegramアカウント" aria-label="telegram">
+                                    <input class="input-whatsapp" type="text" name="whatsapp" placeholder="WhatsAppアカウント" aria-label="whatsapp">
+                                    <input class="input-messenger" type="text" name="messenger" placeholder="Messengerアカウント" aria-label="messenger">
+                                    <input class="input-instagram" type="text" name="instagram" placeholder="Instagramアカウント" aria-label="instagram">
+                                    <input class="input-skype" type="text" name="skype" placeholder="Skypeアカウント" aria-label="skype">
                                 </div>
                                 <div class="social-links">
                                     <ul>
@@ -503,12 +500,12 @@
                                     </ul>
                                 </div>
                             </div>
-                            <input type="email"  id="input_email" name="email" placeholder="Deine E-Mail-Adresse" aria-label="email">
-                            <input type="text"  id="input_link" name="link" placeholder="Link zu deinem YouTube-Kanal" aria-label="youtube">
+                            <input type="email"  id="input_email" name="email" placeholder="メールアドレス" aria-label="email">
+                            <input type="text"  id="input_link" name="link" placeholder="YouTubeチャンネルとリンクする" aria-label="youtube">
 
-							<input type="submit" name="submit" onClick="return dataField(this.form);" value="Eine Anfrage senden">
+							<input type="submit" name="submit" onClick="return dataField(this.form);" value="リクエストを送る">
                         </form>
-                        <span>Wir garantieren vertraulichen<br> Umgang mit deinen Daten.</span>
+                        <span>取得した個人情報は第三者に<br>提供することはありません。</span>
                     </div>
                 </div>
 			</section>
@@ -527,7 +524,7 @@
 						<div class="foo-kr-youtube"><a href="https://servicesdirectory.withyoutube.com/directory?page_size=12&page=1" target="_blank"><img class="lazy" data-src="img/youtube.png" alt="youtube"></a></div>
 					</div>
 					<div class="footer-email">
-						<span>Du hast noch Fragen?</span>
+						<span>ご質問がございますか？</span>
 					</div>
 				</div>
 				<div class="footer-copyright">2020 © Krakatau All rights reserved</div>
@@ -536,17 +533,17 @@
 
 		<div class="kr-request">
 			<div class="kr-request-content">
-				<span class="h2">Schreib uns, wenn du mehr <span>verdienen möchtest</span></span>
+				<span class="h2">収益向上のお手<br>伝いをします<span>お気軽にお問い合わせください</span></span>
 				<form method="post" novalidate>
-					<input type="text"   id="input_name2" name="name" placeholder="Dein Name" aria-label="name">
+					<input type="text"   id="input_name2" name="name" placeholder="お名前" aria-label="name">
 					<!-- <input type="text"   id="input_messenger2" name="messenger" placeholder="Мессенджер"> -->
 					<div class="contact-social">
                         <div class="social-inputs">
-                            <input id="input_telegram2"  class="input-telegram active" type="text" name="telegram" placeholder="Dein Telegram" aria-label="telegram">
-                            <input id="input_whatsapp2"  class="input-whatsapp" type="text" name="whatsapp" placeholder="Dein WhatsApp" aria-label="whatsapp">
-                            <input id="input_messenger2" class="input-messenger" type="text" name="messenger" placeholder="Dein Messenger" aria-label="messenger">
-                            <input id="input_instagram2" class="input-instagram" type="text" name="instagram" placeholder="Dein Instagram" aria-label="instagram">
-                            <input id="input_skype2"     class="input-skype" type="text" name="skype" placeholder="Dein Skype" aria-label="skype">
+                            <input id="input_telegram2"  class="input-telegram active" type="text" name="telegram" placeholder="Telegramアカウント" aria-label="telegram">
+                            <input id="input_whatsapp2"  class="input-whatsapp" type="text" name="whatsapp" placeholder="WhatsAppアカウント" aria-label="whatsapp">
+                            <input id="input_messenger2" class="input-messenger" type="text" name="messenger" placeholder="Messengerアカウント" aria-label="messenger">
+                            <input id="input_instagram2" class="input-instagram" type="text" name="instagram" placeholder="Instagramアカウント" aria-label="instagram">
+                            <input id="input_skype2"     class="input-skype" type="text" name="skype" placeholder="Skypeアカウント" aria-label="skype">
                         </div>
                         <div class="social-links">
                             <ul>
@@ -558,35 +555,36 @@
                             </ul>
                         </div>
                     </div>
-					<input type="text"  id="input_email2" name="email" placeholder="Deine E-Mail-Adresse" aria-label="email">
-					<input type="text"   id="input_link2" name="link" placeholder="Link zu deinem YouTube-Kanal" aria-label="youtube">
-					<input id="submit" type="submit" name="submit" onClick="return dataField2(this.form);" value="Eine Anfrage senden">
+					<input type="text"  id="input_email2" name="email" placeholder="メールアドレス" aria-label="email">
+					<input type="text"   id="input_link2" name="link" placeholder="YouTubeチャンネルとリンクする" aria-label="youtube">
+					<input id="submit" type="submit" name="submit" onClick="return dataField2(this.form);" value="リクエストを送る">
 				</form>
 			</div>
 		</div>
 		<div id="popup" class="kr-request request-thanks">
 			<div class="kr-request-content-thanks">
-				<span class="h2" style="margin:0;">Vielen Dank! Wir melden uns in Kürze.</span>
+				<span class="h2" style="margin:0;">ありがとうございます！確認次第折
+り返しご連絡いたします。</span>
 			</div>
 		</div>
         
         <div class="kr-lang-popup">
         	<div class="kr-lang-popup-content">
         		<ul>
-        			<li><a href="/m_content/krakatau/index-eng.php">Englisch</a></li>
-					<li><a href="/m_content/krakatau/index-spa.php">Spanisch</a></li>
-					<li><a href="/m_content/krakatau/index-hin.php">Hindi</a></li>
-					<li><a href="/m_content/krakatau/index-ara.php">Arabisch</a></li>
-					<li><a href="/m_content/krakatau">Russisch</a></li>
-					<li><a href="/m_content/krakatau/index-fre.php">Französisch</a></li>
-					<li><a href="/m_content/krakatau/index-por.php">Portugiesisch</a></li>
-					<li><a href="/m_content/krakatau/index-ind.php">Indonesisch</a></li>
-					<li><a href="/m_content/krakatau/index-chi.php">Chinesisch</a></li>
-					<li class="active">Deutsch</li>
-					<li><a href="/m_content/krakatau/index-jpn.php">Japanisch</a></li>
-					<li><a href="/m_content/krakatau/index-ita.php">Italienisch</a></li>
-					<li><a href="/m_content/krakatau/index-vie.php">Vietnamesisch</a></li>
-					<li><a href="/m_content/krakatau/index-kor.php">Koreanisch</a></li>
+        			<li><a href="/en">英語</a></li>
+					<li><a href="/sp">スペイン語</a></li>
+					<li><a href="/hi">ヒンディー語</a></li>
+					<li><a href="/ar">アラビア語</a></li>
+					<li><a href="/m_content/krakatau">ロシア語</a></li>
+					<li><a href="/fr">フランス語</a></li>
+					<li><a href="/po">ポルトガル語</a></li>
+					<li><a href="/in">インドネシア語</a></li>
+					<li><a href="/ch">中国語</a></li>
+					<li><a href="/de">ドイツ語</a></li>
+					<li class="active">日本語</li>
+					<li><a href="/it">イタリア語</a></li>
+					<li><a href="/vi">ベトナム語</a></li>
+					<li><a href="/ko">韓国語</a></li>
         		</ul>
         	</div>
         </div>

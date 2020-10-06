@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="zh">
 <head>
 	<link rel="preconnect" href="https://cdn.jsdelivr.net" />
 	<link rel="prefetch" href="img/logo.webp">
@@ -8,8 +8,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<link rel="alternate" href="https://air.io/krakatau" hreflang="ru" />
     <link rel="alternate" href="https://air.io/en/krakatau" hreflang="en" />
-    <title>ترجمة قناة اليوتيوب وخدمة التوطين من  KRAKATAU</title>
-	<meta name="description" content="قم بتوطين محتواك ليتوافق مع أربع عشرة لغة وبأعلى إيرادات نمو ممكنة. :white_check_mark: اجعل محتوى قناتك في يوتيوب يسيطر على العالم">
+
+    <title>YouTube頻道翻譯和本土化服務KRAKATAU</title>
+	<meta name="description" content="使用擁有最高CPM的14門受歡迎語言本土化您的內容,獲得收益成長 :white_check_mark:讓您的YouTube內容征服全世界！">
 
     <link rel="stylesheet" href="css/site-bundle.css">
     <link rel="stylesheet" href="css/style.min.css">
@@ -54,13 +55,13 @@
 }else {
     $bodyclass = '';
 }?>
-<body class="<?=$bodyclass?> index-ara">
+<body class="<?=$bodyclass?> index-chi">
 	<div id="wrapper">
 		<header class="kr-header" style="background-color: #1b1c1c;">
 			<div class="container">
 				<div class="kr-header__left">
 					<div class="kr-header__logo" data-aos="fade-right">
-						<a href="/m_content/krakatau/">
+						<a href="/">
 							<picture>
 							  <source srcset="img/logo.webp" type="image/webp"> 
 							  <img src="img/logo.png" alt="logo">
@@ -74,14 +75,14 @@
 				<div class="kr-header__right" data-aos="fade-left" data-aos-delay="700">
 					<div class="kr-header__mainmenu">
 					<ul>
-						<li><a href="#about">آلية العمل</a></li>
-						<li><a href="#profit">الأرباح</a></li>
-						<li><a href="#audience">الجمهور</a></li>
-						<li><a href="#infographics">الحالات</a></li>
-						<li><a href="#team">فريقنا</a></li>
+						<li><a href="#about">運作方式</a></li>
+						<li><a href="#profit">收益</a></li>
+						<li><a href="#audience">觀眾</a></li>
+						<li><a href="#infographics">案例</a></li>
+						<li><a href="#team">我們的團隊</a></li>
 					</ul>
 					<div class="kr-header__nav-contact">
-						<button>تواصل معنا</button>
+						<button>聯絡我們</button>
 					</div>
 				</div>
 					<div class="kr-header__trigger"></div>
@@ -98,14 +99,14 @@
 				</div>
 				<div class="kr-header__nav">
 					<ul>
-						<li><a href="#about">آلية العمل</a></li>
-						<li><a href="#profit">الأرباح</a></li>
-						<li><a href="#audience">الجمهور</a></li>
-						<li><a href="#infographics">الحالات</a></li>
-						<li><a href="#team">فريقنا</a></li>
+						<li><a href="#about">運作方式</a></li>
+						<li><a href="#profit">收益</a></li>
+						<li><a href="#audience">觀眾</a></li>
+						<li><a href="#infographics">案例</a></li>
+						<li><a href="#team">我們的團隊</a></li>
 					</ul>
 					<div class="kr-header__nav-contact">
-						<button>تواصل معنا</button>
+						<button>聯絡我們</button>
 					</div>
 				</div>
 			</div>
@@ -113,30 +114,30 @@
 		<div class="main">
 			<div class="kr-languages">
 				<ul data-aos="slide-down" data-aos-delay="1500">
-					<li><a href="/m_content/krakatau/index-eng.php">Eng</a></li>
-					<li><a href="/m_content/krakatau/index-spa.php">Spa</a></li>
-					<li><a href="/m_content/krakatau/index-hin.php">Hin</a></li>
-					<li class="active">Ara</li>
-					<li><a href="/m_content/krakatau/index.php">Rus</a></li>
-					<li><a href="/m_content/krakatau/index-fre.php">Fre</a></li>
-					<li><a href="/m_content/krakatau/index-por.php">Por</a></li>
-					<li><a href="/m_content/krakatau/index-ind.php">Ind</a></li>
-					<li><a href="/m_content/krakatau/index-chi.php">Chi</a></li>
-					<li><a href="/m_content/krakatau/index-deu.php">Deu</a></li>
-					<li><a href="/m_content/krakatau/index-jpn.php">Jpn</a></li>
-					<li><a href="/m_content/krakatau/index-ita.php">Ita</a></li>
-					<li><a href="/m_content/krakatau/index-vie.php">Vie</a></li>
-					<li><a href="/m_content/krakatau/index-kor.php">Kor</a></li>
+					<li><a href="/en">Eng</a></li>
+					<li><a href="/sp">Spa</a></li>
+					<li><a href="/hi">Hin</a></li>
+					<li><a href="/ar">Ara</a></li>
+					<li><a href="/ru">Rus</a></li>
+					<li><a href="/fr">Fre</a></li>
+					<li><a href="/po">Por</a></li>
+					<li><a href="/in">Ind</a></li>
+					<li class="active">Chi</li>
+					<li><a href="/de">Deu</a></li>
+					<li><a href="/jp">Jpn</a></li>
+					<li><a href="/it">Ita</a></li>
+					<li><a href="/vi">Vie</a></li>
+					<li><a href="/ko">Kor</a></li>
 				</ul>
 			</div>
 			<section id="welcome" class="kr-section kr-section_welcome">
 				<div class="container">
-					<h1 data-aos="fade-left" data-aos-delay="1000" data-aos-anchor-placement="top-bottom">أرباح مرتفعة من<span></span><br>محتوى قناتك في يوتيوب</h1>
-					<span class="only-for" style="display: block" data-aos="fade-right" data-aos-delay="1000" data-aos-anchor-placement="top-bottom">عرض للقنوات التي بمشتركين<br> يبلغون ثلاثمائة ألف</span>
+					<h1 data-aos="fade-left" data-aos-delay="1000" data-aos-anchor-placement="top-bottom">您的<span>YouTube</span><br>內容的超額收益</h1>
+					<span class="only-for" style="display: block" data-aos="fade-right" data-aos-delay="1000" data-aos-anchor-placement="top-bottom">提供300K<br>位訂閱者的頻道!</span>
 
 					<div class="welcome-info" data-aos="zoom-in" data-aos-delay="1000">
-						لغة واحدة = مصدر دخل واحد<br>
-						<span>أربع عشرة لغة = أربعة عشر مصدر للدخل</span>
+						1門語言=1項收益來源<br>
+						<span>14門語言=14項收益來源</span>
 					</div>
 
 					<div class="welcome-map" data-aos="fade-in" data-aos-delay="1000" data-aos-anchor-placement="top-bottom">
@@ -144,7 +145,7 @@
                             <div class="crm-content">
                                 <span class="crm-country"></span>
                                 <span class="crm-price">$<span></span></span>
-                                <p>الإيرادات لكل<br> مليون من المشاهدات<br> التجارية</p>
+                                <p>一百萬<br>次廣告曝<br>光的CPM</p>
                             </div>
                         </div>
                         <div class="map-mobilenav">
@@ -162,7 +163,6 @@
 						</picture>
                         <!-- <img class="map-shadow" src="img/shadow_map.png" alt=""> -->
 							<?php require_once('img/image-php/image1.php') ?>
-						</svg>
 	                </div>
 				</div>
 
@@ -182,8 +182,9 @@
 				<div class="about-content">
 					<div class="container">
 						<div class="about-content__info" data-aos="fade-in">
-							<span>يهل لديك قناة بها محتوى جذاب؟</span>
-                            <h2 style="direction: rtl;">يمكن مشاهدة محتواك وسماعه<br style="display: block">  وفهمه والإعجاب فيكل قارة بفضل<strong>KRAKATAU</strong></h2>
+							<span>您有內容很酷的頻道嗎？</span>
+							<h2>有了<strong>Krakatau</strong>您的內容<br class="chi-br1">在每個大洲都能被聽到，<br>
+								看到，瞭解和喜愛！<br></h2>
 						</div>
 						<div class="about-content__boxes">
 							<div class="about-content__box" data-aos="fade-up">
@@ -195,13 +196,13 @@
 										</picture>
 										<!-- <img src="img/about1.png" alt=""> -->
 									</span>
-									<h3 class="box-title">الترجمة</h3>
+									<h3 class="box-title">翻譯</h3>
 								</div>
 								<div class="box-content">
 									<ul>
-										<li>تحليل إمكانيات<br> محتواك</li>
-										<li>التعرف عل التنافسية في<br> اللغات الأخرى</li>
-										<li>ابتكار استراتيجية<br> لبدء قنوات جديدة</li>
+										<li>分析您的<br>內容的潛力</li>
+										<li>確定在其他語<br>言中的競爭力</li>
+										<li>建立策略開<br>啟新的頻道</li>
 									</ul>
 								</div>
 							</div>
@@ -214,13 +215,13 @@
 										</picture>
 										<!-- <img src="img/about2.png" alt=""> -->
 									</span>
-									<h3 class="box-title">الدبلجة</h3>
+									<h3 class="box-title">配音</h3>
 								</div>
 								<div class="box-content">
 									<ul>
-										<li>تحويل الفيديو إلى<br> نص مكتوب</li>
-										<li>قم بترجمة وتوطين<br> السيناريوهات</li>
-										<li>ابحث عن أفضل<br> الأصوات</li>
+										<li>建立影<br>片抄本</li>
+										<li>翻譯、本<br>土化抄本</li>
+										<li>尋找最好<br>的聲音</li>
 									</ul>
 								</div>
 							</div>
@@ -233,13 +234,13 @@
 										</picture>
 										<!-- <img src="img/about3.png" alt=""> -->
 									</span>
-									<h3 class="box-title">التحرير</h3>
+									<h3 class="box-title">編輯</h3>
 								</div>
 								<div class="box-content">
 									<ul>
-										<li>قم بجعل الفيديو يتوافق<br> مع اللغات الجديدة</li>
-										<li>أنشئ فيديوهات فريدة حسب<br> خوارزميات يوتيوب</li>
-										<li>أضف عناصر<br> صوت وفيديو</li>
+										<li>讓影片適配<br>新的語言</li>
+										<li>建立與眾不<br>同的YouTube影片</li>
+										<li>加入新的音<br>頻和影片元素</li>
 									</ul>
 								</div>
 							</div>
@@ -252,13 +253,13 @@
 										</picture>
 										<!-- <img src="img/about4.png" alt=""> -->
 									</span>
-									<h3 class="box-title">النشر</h3>
+									<h3 class="box-title">發佈</h3>
 								</div>
 								<div class="box-content">
 									<ul>
-										<li>تحليل أفضل<br> إعدادات النشر</li>
-										<li>العمل مع نهايات المقطع<br> وقوائم التشغيل</li>
-										<li>اجمع سحابات<br> الوسوم لكل لغة</li>
+										<li>分析發佈的<br>最佳化設定</li>
+										<li>使用結束畫<br>面和播放清單</li>
+										<li>為每門語言<br>收集標籤雲</li>
 									</ul>
 								</div>
 							</div>
@@ -271,13 +272,13 @@
 										</picture>
 										<!-- <img src="img/about5.png" alt=""> -->
 									</span>
-									<h3 class="box-title">الترويج</h3>
+									<h3 class="box-title">宣傳</h3>
 								</div>
 								<div class="box-content">
 									<ul>
-										<li>إجراء أفضل طريقة للوصول<br> لقسم التوصية</li>
-										<li>توجيه الحركة من القنوات<br> النشطة الأخرى</li>
-										<li>العمل مع أدووردز<br> ومنصات أخرى</li>
+										<li>使用最佳化做<br>法觸及推薦版面</li>
+										<li>從其他活躍頻<br>道中引導流量</li>
+										<li>與AdWords和其他<br> 平台搭配使用</li>
 									</ul>
 								</div>
 							</div>
@@ -290,13 +291,13 @@
 										</picture>
 										<!-- <img src="img/about6.png" alt=""> -->
 									</span>
-									<h3 class="box-title">التحليل</h3>
+									<h3 class="box-title">分析</h3>
 								</div>
 								<div class="box-content">
 									<ul>
-										<li>التعرف على أفضل<br> استراتيجية للترويج</li>
-										<li>اختيار أفضل<br> محتوى للترجمة</li>
-										<li>العمل مع تحليل<br> نمو المشاهدات</li>
+										<li>確定最佳<br>化宣傳策略</li>
+										<li>選擇最佳<br>內容來翻譯</li>
+										<li>使用觀看量<br>成長數據分析</li>
 									</ul>
 								</div>
 							</div>
@@ -306,12 +307,12 @@
 			</section>
 			<section id="profit" class="kr-section kr-section_profit" data-aos="fade-in">
 				<div class="container">
-					<h2>ااحسب إيرادات محتواك حين يُيُترجم إلى لغات أخرى</h2>
-					<h3>حاسبة إيرادات قناة اليوتيوب</h3>
+					<h2>瞭解您的內容翻譯成其<br>他語言時將產生多少收益</h2>
+					<h3>YouTube頻道的收益計算器</h3>
 
 					<div class="profit-calculator" data-aos="zoom-in">
 						<div class="pc-quantity">
-							<span class="h4">عدد المشاهدات<br> التجارية على كل قناة</span>
+							<span class="h4">每個頻道的廣告<br>曝光次數</span>
 							<div class="range-nav">
 								<span class="range-left"><span>‹</span></span>
                             	<span class="range-right"><span>›</span></span>
@@ -328,28 +329,28 @@
 						</div>
 						<div class="pc-languages">
 							<ul>
-								<li><span class="pc-lang-title">الإنجليزية</span><span class="pc-lang-price" data-price="3900">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">اليابانية</span><span class="pc-lang-price" data-price="3600">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">الفرنسية</span><span class="pc-lang-price" data-price="3300">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">الألمانية</span><span class="pc-lang-price" data-price="3200">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">الكورية</span><span class="pc-lang-price" data-price="3000">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">الإيطالية</span><span class="pc-lang-price" data-price="2400">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">الصينية</span><span class="pc-lang-price" data-price="1500">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">英語</span><span class="pc-lang-price" data-price="3900">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">日語</span><span class="pc-lang-price" data-price="3600">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">法語</span><span class="pc-lang-price" data-price="3300">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">德語</span><span class="pc-lang-price" data-price="3200">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">韓語</span><span class="pc-lang-price" data-price="3000">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">意大利語</span><span class="pc-lang-price" data-price="2400">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">漢語</span><span class="pc-lang-price" data-price="1500">$<span></span>*</span></li>
 							</ul>
 							<ul>
-								<li><span class="pc-lang-title">الإسبانية</span><span class="pc-lang-price" data-price="1100">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">البرتغالية</span><span class="pc-lang-price" data-price="1000">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">الروسية</span><span class="pc-lang-price" data-price="900">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">العربية</span><span class="pc-lang-price" data-price="800">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">الفيتنامية</span><span class="pc-lang-price" data-price="700">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">الأندونيسية</span><span class="pc-lang-price" data-price="600">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">الهندية</span><span class="pc-lang-price" data-price="400">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">西班牙語</span><span class="pc-lang-price" data-price="1100">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">葡萄牙語</span><span class="pc-lang-price" data-price="1000">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">俄語</span><span class="pc-lang-price" data-price="900">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">阿拉伯語</span><span class="pc-lang-price" data-price="800">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">越南語</span><span class="pc-lang-price" data-price="700">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">印尼語</span><span class="pc-lang-price" data-price="600">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">印度語</span><span class="pc-lang-price" data-price="400">$<span></span>*</span></li>
 							</ul>
 						</div>
-						<div class="pc-subtotal"><span>المجموع</span><span>$<span></span>*</span></div>
-						<div class="pc-request"><button>أرسل طلبًا</button></div>
+						<div class="pc-subtotal"><span>共計</span><span>$<span></span>*</span></div>
+						<div class="pc-request"><button>提交要求</button></div>
 					</div>
-					<span dir="rtl">*جميع العمليات الحسابية تقريبية وبحسب محتوالموضوع </span>
+					<span>*所有的計算都是大致的並且<br>視您的內容的主題而定</span>
 				</div>
 			</section>
 			<section id="audience" class="kr-section kr-section_audience">
@@ -373,28 +374,28 @@
 						</ul>
 					</div>
 					<div class="audience-info">
-						<span>يمكن مشاهدة محتواك وسماعه وفهمه و<br><strong>KRAKATAUفهمه والإعجاب فيكل قارة بفضل </strong></span>
-						<button>أرسل طلبًا</button>
+						<span><strong>Krakatau</strong>擁有<br>38億觀眾</span>
+						<button>提交要求</button>
 					</div>
 				</div>
 			</section>
 			<section id="infographics" class="kr-section kr-section_infographics" data-aos="fade-in">
 				<div class="container">
-					<h2>رسم بياني يوضح<br> دخل اللغة الجديدة</h2>
-					<span class="h4">حالات حقيقية لبعض شركائنا</span>
+					<h2>新的語言收<br>益成長圖表</h2>
+					<span class="h4">我們的合作夥伴的真實案例</span>
 
 					<div class="infographics-slider owl-carousel">
 						<div class="item item-1" data-aos="zoom-in">
 							<div class="is-author">
 								<img class="owl-lazy" data-src="img/chanel1.png" alt="author">
-								<span>مخفي بناء على رغبة المالك </span>
+								<span>應版權所有者的要求隱藏</span>
 							</div>
 							<div class="is-graphic">
-								<span class="is-title">الترفيه</span>
+								<span class="is-title">娛樂</span>
 
 								<picture loading="lazy" class="lazy">
-								  <!-- <source srcset="img/infographics1-ara.webp" type="image/webp">  -->
-								  <img src="img/infographics1-ara.png" alt="graphic">
+								  <!-- <source srcset="img/infographics1-chi.webp" type="image/webp">  -->
+								  <img src="img/infographics1-chi.png" alt="graphic">
 								</picture>
 
 								<!-- <img src="img/infographics1.png" alt="graphic"> -->
@@ -403,14 +404,14 @@
 						<div class="item item-2" data-aos="zoom-in">
 							<div class="is-author">
 								<img class="owl-lazy" data-src="img/chanel2.png" alt="author">
-								<span>مخفي بناء على رغبة المالك </span>
+								<span>應版權所有者的要求隱藏</span>
 							</div>
 							<div class="is-graphic">
-								<span class="is-title">كيف تفعل</span>
+								<span class="is-title">DIY</span>
 
 								<picture loading="lazy" class="lazy">
-								  <!-- <source srcset="img/infographics2-ara.webp" type="image/webp">  -->
-								  <img src="img/infographics2-ara.png" alt="graphic">
+								  <!-- <source srcset="img/infographics2-chi.webp" type="image/webp">  -->
+								  <img src="img/infographics2-chi.png" alt="graphic">
 								</picture>
 
 								<!-- <img src="img/infographics2.png" alt="graphic"> -->
@@ -419,14 +420,14 @@
 						<div class="item item-3" data-aos="zoom-in">
 							<div class="is-author">
 								<img class="owl-lazy" data-src="img/chanel3.png" alt="author">
-								<span>مخفي بناء على رغبة المالك </span>
+								<span>應版權所有者的要求隱藏</span>
 							</div>
 							<div class="is-graphic">
-								<span class="is-title">الجمال</span>
+								<span class="is-title">美容</span>
 
 								<picture loading="lazy" class="lazy">
-								  <!-- <source srcset="img/infographics3-ara.png" type="image/webp">  -->
-								  <img src="img/infographics3-ara.png" alt="graphic">
+								  <!-- <source srcset="img/infographics3-chi.webp" type="image/webp">  -->
+								  <img src="img/infographics3-chi.png" alt="graphic">
 								</picture>
 
 								<!-- <img src="img/infographics3.png" alt="graphic"> -->
@@ -435,14 +436,14 @@
 						<div class="item item-4" data-aos="zoom-in">
 							<div class="is-author">
 								<img class="owl-lazy" data-src="img/chanel4.png" alt="author">
-								<span>مخفي بناء على رغبة المالك </span>
+								<span>應版權所有者的要求隱藏</span>
 							</div>
 							<div class="is-graphic">
-								<span class="is-title">الألعاب</span>
+								<span class="is-title">遊戲</span>
 
 								<picture loading="lazy" class="lazy">
-								  <!-- <source srcset="img/infographics4-ara.webp" type="image/webp">  -->
-								  <img src="img/infographics4-ara.png" alt="graphic">
+								  <!-- <source srcset="img/infographics4-chi.webp" type="image/webp">  -->
+								  <img src="img/infographics4-chi.png" alt="graphic">
 								</picture>
 
 								<!-- <img src="img/infographics4.png" alt="graphic"> -->
@@ -450,44 +451,45 @@
 						</div>
 					</div>
                     <span class="is-chanels">
-                        <span class="chanel">أرباح القناة الرئيسة</span>
-                        <span class="chanel">أرباح القنوات المُترجَمَة</span>
+                        <span class="chanel">主頻道的收入</span>
+                        <span class="chanel">翻譯頻道的收入</span>
                     </span>
 				</div>
 			</section>
 			<section id="contact-us" class="kr-section kr-section_contact-us" data-aos="fade-in">
                 <div class="reasons">
                     <div class="container">
-                        <span class="h2">لماذا نحن؟</span>
+                        <span class="h2">為什麼選擇我們？</span>
                         <div class="reasons-info">
-                            <p>تجربة واسعة في ترجمة وتطوير القنوات الأجنبية</p>
-                            <p>نقوم بتوفير تكاليف الترجمة والتوطين والترويج</p>
-                            <p>نعمل مع مجموعة من أكثر اللغات ربحية والتيأعلى الأرباح الممكنة</p>
-                            <p>نقوم بتوفير إحصائيات شهرية شفافة عن كل القنوات</p>
+                            <p>擁有豐富的專業翻譯和開拓外語頻道的經驗</p>
+                            <p>我們支付所有翻譯，本土化和宣傳費用</p>
+                            <p>與最賺錢的語言組合合作賺取最大收益</p>
+                            <p>為所有頻道提供透明的每月統計資料</p>
                         </div>
 
                         <div class="reasons-profit">
                             <span class="profit-arrow" data-aos="flip-down"><img class="lazy" data-src="img/green-arrow.png" alt="arrow"></span>
-                            <span>تحصل على</span>
-                            <img class="lazy" data-src="img/text2.png" alt="profit" data-aos="zoom-in">
-                            <span>دون إنفاق المال والوقت</span>
+                            <span>您無需花費時間和金錢即可獲得</span>
+                            <img class="lazy" data-src="img/text7.png" alt="profit" data-aos="zoom-in">
+                            <span><br>
+                                </span>
                         </div>
                     </div>
                 </div>
                 <div class="contact-us">
                     <div class="container">
-                        <span class="h2">راسلنا كي</span>
-                        <span class="h4">تربح أكثر</span>
+                        <span class="h2">給我們寫信</span>
+                        <span class="h4">賺取更多</span>
 
 						<form action="" method="post" novalidate>
-                            <input type="text" name="name" id="input_name" placeholder="اسمك" aria-label="name">
+                            <input type="text" name="name" id="input_name" placeholder="您的姓名" aria-label="name">
                             <div class="contact-social">
                                 <div class="social-inputs">
-                                    <input class="input-telegram active" type="text" name="telegram" placeholder="تلغرام" aria-label="telegram">
-                                    <input class="input-whatsapp" type="text" name="whatsapp" placeholder="الواتس آب" aria-label="whatsapp">
-                                    <input class="input-messenger" type="text" name="messenger" placeholder="الماسنجر" aria-label="messenger">
-                                    <input class="input-instagram" type="text" name="instagram" placeholder="إنستغرام" aria-label="instagram">
-                                    <input class="input-skype" type="text" name="skype" placeholder="سكايب" aria-label="skype">
+                                    <input class="input-telegram active" type="text" name="telegram" placeholder="您的Telegram" aria-label="telegram">
+                                    <input class="input-whatsapp" type="text" name="whatsapp" placeholder="您的WhatsApp" aria-label="whatsapp">
+                                    <input class="input-messenger" type="text" name="messenger" placeholder="您的Messenger" aria-label="messenger">
+                                    <input class="input-instagram" type="text" name="instagram" placeholder="您的Instagram" aria-label="instagram">
+                                    <input class="input-skype" type="text" name="skype" placeholder="您的Skype" aria-label="skype">
                                 </div>
                                 <div class="social-links">
                                     <ul>
@@ -499,12 +501,12 @@
                                     </ul>
                                 </div>
                             </div>
-                            <input type="email"  id="input_email" name="email" placeholder="بريدك" aria-label="email">
-                            <input type="text"  id="input_link" name="link" placeholder="رابط لحساب قناتك في يوتيوب" aria-label="youtube">
+                            <input type="email"  id="input_email" name="email" placeholder="您的電子郵件" aria-label="email">
+                            <input type="text"  id="input_link" name="link" placeholder="連結到您的youtube頻道" aria-label="youtube">
 
-							<input type="submit" name="submit" onClick="return dataField(this.form);" value="أرسل طلبًا">
+							<input type="submit" name="submit" onClick="return dataField(this.form);" value="提交要求">
                         </form>
-                        <span>نتعهد بضمان سرية<br> معلوماتك</span>
+                        <span>我們將保證您的<br>資訊的安全性</span>
                     </div>
                 </div>
 			</section>
@@ -523,7 +525,7 @@
 						<div class="foo-kr-youtube"><a href="https://servicesdirectory.withyoutube.com/directory?page_size=12&page=1" target="_blank"><img class="lazy" data-src="img/youtube.png" alt="youtube"></a></div>
 					</div>
 					<div class="footer-email">
-						<span>هل لديك استفسارات؟</span>
+						<span>有問題？</span>
 					</div>
 				</div>
 				<div class="footer-copyright">2020 © Krakatau All rights reserved</div>
@@ -532,17 +534,17 @@
 
 		<div class="kr-request">
 			<div class="kr-request-content">
-				<span class="h2">راسلنا كي<span>تربح أكثر</span></span>
+				<span class="h2">給我們寫信<span>賺取更多</span></span>
 				<form method="post" novalidate>
-					<input type="text"   id="input_name2" name="name" placeholder="اسمك" aria-label="name">
+					<input type="text"   id="input_name2" name="name" placeholder="您的姓名" aria-label="name">
 					<!-- <input type="text"   id="input_messenger2" name="messenger" placeholder="Мессенджер"> -->
 					<div class="contact-social">
                         <div class="social-inputs">
-                            <input id="input_telegram2"  class="input-telegram active" type="text" name="telegram" placeholder="تلغرام" aria-label="telegram">
-                            <input id="input_whatsapp2"  class="input-whatsapp" type="text" name="whatsapp" placeholder="الواتس آب" aria-label="whatsapp">
-                            <input id="input_messenger2" class="input-messenger" type="text" name="messenger" placeholder="الماسنجر" aria-label="messenger">
-                            <input id="input_instagram2" class="input-instagram" type="text" name="instagram" placeholder="إنستغرام" aria-label="instagram">
-                            <input id="input_skype2"     class="input-skype" type="text" name="skype" placeholder="سكايب" aria-label="skype">
+                            <input id="input_telegram2"  class="input-telegram active" type="text" name="telegram" placeholder="您的Telegram" aria-label="telegram">
+                            <input id="input_whatsapp2"  class="input-whatsapp" type="text" name="whatsapp" placeholder="您的Whatsapp" aria-label="whatsapp">
+                            <input id="input_messenger2" class="input-messenger" type="text" name="messenger" placeholder="您的Messenger" aria-label="messenger">
+                            <input id="input_instagram2" class="input-instagram" type="text" name="instagram" placeholder="您的Instagram" aria-label="instagram">
+                            <input id="input_skype2"     class="input-skype" type="text" name="skype" placeholder="您的Skype" aria-label="skype">
                         </div>
                         <div class="social-links">
                             <ul>
@@ -554,35 +556,35 @@
                             </ul>
                         </div>
                     </div>
-					<input type="text"  id="input_email2" name="email" placeholder="بريدك" aria-label="email">
-					<input type="text"   id="input_link2" name="link" placeholder="رابط لحساب قناتك في يوتيوب" aria-label="link">
-					<input id="submit" type="submit" name="submit" onClick="return dataField2(this.form);" value="أرسل طلبًا">
+					<input type="text"  id="input_email2" name="email" placeholder="您的電子郵件" aria-label="email">
+					<input type="text"   id="input_link2" name="link" placeholder="連結到您的youtube頻道" aria-label="youtube">
+					<input id="submit" type="submit" name="submit" onClick="return dataField2(this.form);" value="提出要求">
 				</form>
 			</div>
 		</div>
 		<div id="popup" class="kr-request request-thanks">
 			<div class="kr-request-content-thanks">
-				<span class="h2" style="margin:0;">شكرًا. سنتواصل معك قريبًًا</span>
+				<span class="h2" style="margin:0;">謝謝！我們會盡快與您聯絡</span>
 			</div>
 		</div>
         
         <div class="kr-lang-popup">
         	<div class="kr-lang-popup-content">
         		<ul>
-        			<li><a href="/m_content/krakatau/index-eng.php">English</a></li>
-					<li><a href="/m_content/krakatau/index-spa.php">Spanish</a></li>
-					<li><a href="/m_content/krakatau/index-hin.php">Hindi</a></li>
-					<li class="active">Arabic</li>
-					<li><a href="/m_content/krakatau">Russian</a></li>
-					<li><a href="/m_content/krakatau/index-fre.php">French</a></li>
-					<li><a href="/m_content/krakatau/index-por.php">Portuguese</a></li>
-					<li><a href="/m_content/krakatau/index-ind.php">Indonesian</a></li>
-					<li><a href="/m_content/krakatau/index-chi.php">Chinese</a></li>
-					<li><a href="/m_content/krakatau/index-deu.php">Deutch</a></li>
-					<li><a href="/m_content/krakatau/index-jpn.php">Japanese</a></li>
-					<li><a href="/m_content/krakatau/index-ita.php">Italian</a></li>
-					<li><a href="/m_content/krakatau/index-vie.php">Vietnamese</a></li>
-					<li><a href="/m_content/krakatau/index-kor.php">Korean</a></li>
+        			<li><a href="/en">英語</a></li>
+					<li><a href="/sp">西班牙語</a></li>
+					<li><a href="/hi">印度語</a></li>
+					<li><a href="/ar">阿拉伯語</a></li>
+					<li><a href="/m_content/krakatau">俄語</a></li>
+					<li><a href="/fr">法語</a></li>
+					<li><a href="/po">葡萄牙語</a></li>
+					<li><a href="/in">印尼語</a></li>
+					<li class="active">漢語</li>
+					<li><a href="/de">德語</a></li>
+					<li><a href="/jp">日語</a></li>
+					<li><a href="/it">意大利語</a></li>
+					<li><a href="/vi">越南語</a></li>
+					<li><a href="/ko">韓語</a></li>
         		</ul>
         	</div>
         </div>

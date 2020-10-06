@@ -61,7 +61,7 @@
 			<div class="container">
 				<div class="kr-header__left">
 					<div class="kr-header__logo" data-aos="fade-right">
-						<a href="/m_content/krakatau/">
+						<a href="/">
 							<picture>
 							  <source srcset="img/logo.webp" type="image/webp"> 
 							  <img src="img/logo.png" alt="logo">
@@ -114,19 +114,19 @@
 		<div class="main">
 			<div class="kr-languages">
 				<ul data-aos="slide-down" data-aos-delay="1500">
-					<li><a href="/m_content/krakatau/index-eng.php">Eng</a></li>
-					<li><a href="/m_content/krakatau/index-spa.php">Spa</a></li>
-					<li><a href="/m_content/krakatau/index-hin.php">Hin</a></li>
-					<li><a href="/m_content/krakatau/index-ara.php">Ara</a></li>
-					<li><a href="/m_content/krakatau/index.php">Rus</a></li>
-					<li><a href="/m_content/krakatau/index-fre.php">Fre</a></li>
-					<li><a href="/m_content/krakatau/index-por.php">Por</a></li>
-					<li><a href="/m_content/krakatau/index-ind.php">Ind</a></li>
-					<li><a href="/m_content/krakatau/index-chi.php">Chi</a></li>
-					<li><a href="/m_content/krakatau/index-deu.php">Deu</a></li>
-					<li><a href="/m_content/krakatau/index-jpn.php">Jpn</a></li>
-					<li><a href="/m_content/krakatau/index-ita.php">Ita</a></li>
-					<li><a href="/m_content/krakatau/index-vie.php">Vie</a></li>
+					<li><a href="/en">Eng</a></li>
+					<li><a href="/sp">Spa</a></li>
+					<li><a href="/hi">Hin</a></li>
+					<li><a href="/ar">Ara</a></li>
+					<li><a href="/ru">Rus</a></li>
+					<li><a href="/fr">Fre</a></li>
+					<li><a href="/po">Por</a></li>
+					<li><a href="/in">Ind</a></li>
+					<li><a href="/ch">Chi</a></li>
+					<li><a href="/de">Deu</a></li>
+					<li><a href="/jp">Jpn</a></li>
+					<li><a href="/it">Ita</a></li>
+					<li><a href="/vi">Vie</a></li>
 					<li class="active">Kor</li>
 				</ul>
 			</div>
@@ -569,19 +569,19 @@
         <div class="kr-lang-popup">
         	<div class="kr-lang-popup-content">
         		<ul>
-        			<li><a href="/m_content/krakatau/index-eng.php">영어</a></li>
-					<li><a href="/m_content/krakatau/index-spa.php">스페인어</a></li>
-					<li><a href="/m_content/krakatau/index-hin.php">힌디어</a></li>
-					<li><a href="/m_content/krakatau/index-ara.php">아랍어</a></li>
+        			<li><a href="/en">영어</a></li>
+					<li><a href="/sp">스페인어</a></li>
+					<li><a href="/hi">힌디어</a></li>
+					<li><a href="/ar">아랍어</a></li>
 					<li><a href="/m_content/krakatau">러시아어</a></li>
-					<li><a href="/m_content/krakatau/index-fre.php">프랑스어</a></li>
-					<li><a href="/m_content/krakatau/index-por.php">포르투갈어</a></li>
-					<li><a href="/m_content/krakatau/index-ind.php">인도네시아어</a></li>
-					<li><a href="/m_content/krakatau/index-chi.php">중국어</a></li>
-					<li><a href="/m_content/krakatau/index-deu.php">독일어</a></li>
-					<li><a href="/m_content/krakatau/index-jpn.php">일본어</a></li>
-					<li><a href="/m_content/krakatau/index-ita.php">이탈리아어</a></li>
-					<li><a href="/m_content/krakatau/index-vie.php">베트남어</a></li>
+					<li><a href="/fr">프랑스어</a></li>
+					<li><a href="/po">포르투갈어</a></li>
+					<li><a href="/in">인도네시아어</a></li>
+					<li><a href="/ch">중국어</a></li>
+					<li><a href="/de">독일어</a></li>
+					<li><a href="/jp">일본어</a></li>
+					<li><a href="/it">이탈리아어</a></li>
+					<li><a href="/vi">베트남어</a></li>
 					<li class="active">한국어</li>
         		</ul>
         	</div>

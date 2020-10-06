@@ -61,7 +61,7 @@
 			<div class="container">
 				<div class="kr-header__left">
 					<div class="kr-header__logo" data-aos="fade-right">
-						<a href="/m_content/krakatau/">
+						<a href="/">
 							<picture>
 							  <source srcset="img/logo.webp" type="image/webp"> 
 							  <img src="img/logo.png" alt="logo">
@@ -114,20 +114,20 @@
 		<div class="main">
 			<div class="kr-languages">
 				<ul data-aos="slide-down" data-aos-delay="1500">
-					<li><a href="/m_content/krakatau/index-eng.php">Eng</a></li>
-                    <li><a href="/m_content/krakatau/index-spa.php">Spa</a></li>
-                    <li><a href="/m_content/krakatau/index-ind.php">Hin</a></li>
-                    <li><a href="/m_content/krakatau/index-ara.php">Ara</a></li>
-                    <li><a href="/m_content/krakatau/index.php">Rus</a></li>
-                    <li><a href="/m_content/krakatau/index-fre.php">Fre</a></li>
-                    <li><a href="/m_content/krakatau/index-por.php">Por</a></li>
-                    <li><a href="/m_content/krakatau/index-ind.php">Ind</a></li>
-                    <li><a href="/m_content/krakatau/index-chi.php">Chi</a></li>
-                    <li><a href="/m_content/krakatau/index-deu.php">Deu</a></li>
-                    <li><a href="/m_content/krakatau/index-jpn.php">Jpn</a></li>
+					<li><a href="/en">Eng</a></li>
+                    <li><a href="/sp">Spa</a></li>
+                    <li><a href="/in">Hin</a></li>
+                    <li><a href="/ar">Ara</a></li>
+                    <li><a href="/ru">Rus</a></li>
+                    <li><a href="/fr">Fre</a></li>
+                    <li><a href="/po">Por</a></li>
+                    <li><a href="/in">Ind</a></li>
+                    <li><a href="/ch">Chi</a></li>
+                    <li><a href="/de">Deu</a></li>
+                    <li><a href="/jp">Jpn</a></li>
                     <li class="active">Ita</li>
-                    <li><a href="/m_content/krakatau/index-vie.php">Vie</a></li>
-                    <li><a href="/m_content/krakatau/index-kor.php">Kor</a></li>
+                    <li><a href="/vi">Vie</a></li>
+                    <li><a href="/ko">Kor</a></li>
 				</ul>
 			</div>
 			<section id="welcome" class="kr-section kr-section_welcome">
@@ -573,20 +573,20 @@
         <div class="kr-lang-popup">
         	<div class="kr-lang-popup-content">
         		<ul>
-        			<li><a href="/m_content/krakatau/index-eng.php">Inglese</a></li>
-					<li><a href="/m_content/krakatau/index-spa.php">Spagnolo</a></li>
-					<li><a href="/m_content/krakatau/index-hin.php">Hindi</a></li>
-					<li><a href="/m_content/krakatau/index-ara.php">Arabo</a></li>
+        			<li><a href="/en">Inglese</a></li>
+					<li><a href="/sp">Spagnolo</a></li>
+					<li><a href="/hi">Hindi</a></li>
+					<li><a href="/ar">Arabo</a></li>
 					<li><a href="/m_content/krakatau">Russo</a></li>
-					<li><a href="/m_content/krakatau/index-fre.php">Francese</a></li>
-					<li><a href="/m_content/krakatau/index-por.php">Portoghese</a></li>
-					<li><a href="/m_content/krakatau/index-ind.php">Indonesiano</a></li>
-					<li><a href="/m_content/krakatau/index-chi.php">Cinese</a></li>
-					<li><a href="/m_content/krakatau/index-deu.php">Tedesco</a></li>
-					<li><a href="/m_content/krakatau/index-jpn.php">Giapponese</a></li>
+					<li><a href="/fr">Francese</a></li>
+					<li><a href="/po">Portoghese</a></li>
+					<li><a href="/in">Indonesiano</a></li>
+					<li><a href="/ch">Cinese</a></li>
+					<li><a href="/de">Tedesco</a></li>
+					<li><a href="/jp">Giapponese</a></li>
 					<li class="active">Italiano</li>
-					<li><a href="/m_content/krakatau/index-vie.php">Vietnamita</a></li>
-					<li><a href="/m_content/krakatau/index-kor.php">Coreano</a></li>
+					<li><a href="/vi">Vietnamita</a></li>
+					<li><a href="/ko">Coreano</a></li>
         		</ul>
         	</div>
         </div>

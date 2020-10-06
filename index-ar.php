@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="ar">
 <head>
 	<link rel="preconnect" href="https://cdn.jsdelivr.net" />
 	<link rel="prefetch" href="img/logo.webp">
@@ -8,10 +8,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<link rel="alternate" href="https://air.io/krakatau" hreflang="ru" />
     <link rel="alternate" href="https://air.io/en/krakatau" hreflang="en" />
-
-    <title>KRAKATAU — Serviços Tradução e Localização de Canais do YouTube</title>
-	<meta name="description" content="Localize seu conteúdo nos 14 idiomas mais populares com o maior
-CPM para aumento do rendimento. :white_check_mark: Faça seu conteúdo no YouTube dominar o mundo!">
+    <title>ترجمة قناة اليوتيوب وخدمة التوطين من  KRAKATAU</title>
+	<meta name="description" content="قم بتوطين محتواك ليتوافق مع أربع عشرة لغة وبأعلى إيرادات نمو ممكنة. :white_check_mark: اجعل محتوى قناتك في يوتيوب يسيطر على العالم">
 
     <link rel="stylesheet" href="css/site-bundle.css">
     <link rel="stylesheet" href="css/style.min.css">
@@ -56,13 +54,13 @@ CPM para aumento do rendimento. :white_check_mark: Faça seu conteúdo no YouTub
 }else {
     $bodyclass = '';
 }?>
-<body class="<?=$bodyclass?> index-por">
+<body class="<?=$bodyclass?> index-ara">
 	<div id="wrapper">
 		<header class="kr-header" style="background-color: #1b1c1c;">
 			<div class="container">
 				<div class="kr-header__left">
 					<div class="kr-header__logo" data-aos="fade-right">
-						<a href="/m_content/krakatau/">
+						<a href="/">
 							<picture>
 							  <source srcset="img/logo.webp" type="image/webp"> 
 							  <img src="img/logo.png" alt="logo">
@@ -76,14 +74,14 @@ CPM para aumento do rendimento. :white_check_mark: Faça seu conteúdo no YouTub
 				<div class="kr-header__right" data-aos="fade-left" data-aos-delay="700">
 					<div class="kr-header__mainmenu">
 					<ul>
-						<li><a href="#about">Como funciona</a></li>
-						<li><a href="#profit">Lucro</a></li>
-						<li><a href="#audience">Audiência</a></li>
-						<li><a href="#infographics">Casos</a></li>
-						<li><a href="#team">Nossa equipe</a></li>
+						<li><a href="#about">آلية العمل</a></li>
+						<li><a href="#profit">الأرباح</a></li>
+						<li><a href="#audience">الجمهور</a></li>
+						<li><a href="#infographics">الحالات</a></li>
+						<li><a href="#team">فريقنا</a></li>
 					</ul>
 					<div class="kr-header__nav-contact">
-						<button>Contate-nos</button>
+						<button>تواصل معنا</button>
 					</div>
 				</div>
 					<div class="kr-header__trigger"></div>
@@ -100,14 +98,14 @@ CPM para aumento do rendimento. :white_check_mark: Faça seu conteúdo no YouTub
 				</div>
 				<div class="kr-header__nav">
 					<ul>
-						<li><a href="#about">Como funciona</a></li>
-						<li><a href="#profit">Lucro</a></li>
-						<li><a href="#audience">Audiência</a></li>
-						<li><a href="#infographics">Casos</a></li>
-						<li><a href="#team">Nossa equipe</a></li>
+						<li><a href="#about">آلية العمل</a></li>
+						<li><a href="#profit">الأرباح</a></li>
+						<li><a href="#audience">الجمهور</a></li>
+						<li><a href="#infographics">الحالات</a></li>
+						<li><a href="#team">فريقنا</a></li>
 					</ul>
 					<div class="kr-header__nav-contact">
-						<button>Contate-nos</button>
+						<button>تواصل معنا</button>
 					</div>
 				</div>
 			</div>
@@ -115,30 +113,30 @@ CPM para aumento do rendimento. :white_check_mark: Faça seu conteúdo no YouTub
 		<div class="main">
 			<div class="kr-languages">
 				<ul data-aos="slide-down" data-aos-delay="1500">
-					<li><a href="/m_content/krakatau/index-eng.php">Eng</a></li>
-                    <li><a href="/m_content/krakatau/index-spa.php">Spa</a></li>
-                    <li><a href="/m_content/krakatau/index-hin.php">Hin</a></li>
-                    <li><a href="/m_content/krakatau/index-ara.php">Ara</a></li>
-                    <li><a href="/m_content/krakatau/index.php">Rus</a></li>
-                    <li><a href="/m_content/krakatau/index-fre.php">Fre</a></li>
-                    <li class="active">Por</li>
-                    <li><a href="/m_content/krakatau/index-ind.php">Ind</a></li>
-                    <li><a href="/m_content/krakatau/index-chi.php">Chi</a></li>
-                    <li><a href="/m_content/krakatau/index-deu.php">Deu</a></li>
-                    <li><a href="/m_content/krakatau/index-jpn.php">Jpn</a></li>
-                    <li><a href="/m_content/krakatau/index-ita.php">Ita</a></li>
-                    <li><a href="/m_content/krakatau/index-vie.php">Vie</a></li>
-                    <li><a href="/m_content/krakatau/index-kor.php">Kor</a></li>
+					<li><a href="/en">Eng</a></li>
+					<li><a href="/sp">Spa</a></li>
+					<li><a href="/hi">Hin</a></li>
+					<li class="active">Ara</li>
+					<li><a href="/ru">Rus</a></li>
+					<li><a href="/fr">Fre</a></li>
+					<li><a href="/po">Por</a></li>
+					<li><a href="/in">Ind</a></li>
+					<li><a href="/ch">Chi</a></li>
+					<li><a href="/de">Deu</a></li>
+					<li><a href="/jp">Jpn</a></li>
+					<li><a href="/it">Ita</a></li>
+					<li><a href="/vi">Vie</a></li>
+					<li><a href="/ko">Kor</a></li>
 				</ul>
 			</div>
 			<section id="welcome" class="kr-section kr-section_welcome">
 				<div class="container">
-					<h1 data-aos="fade-left" data-aos-delay="1000" data-aos-anchor-placement="top-bottom">Super&nbsp;lucro&nbsp;<span>para seu</span><br class="ita-br-1">&nbsp;conteúdo no YouTube</h1>
-					<span class="only-for" style="display: block" data-aos="fade-right" data-aos-delay="1000" data-aos-anchor-placement="top-bottom">Oferta para canais com<br> 300 mil inscritos!</span>
+					<h1 data-aos="fade-left" data-aos-delay="1000" data-aos-anchor-placement="top-bottom">أرباح مرتفعة من<span></span><br>محتوى قناتك في يوتيوب</h1>
+					<span class="only-for" style="display: block" data-aos="fade-right" data-aos-delay="1000" data-aos-anchor-placement="top-bottom">عرض للقنوات التي بمشتركين<br> يبلغون ثلاثمائة ألف</span>
 
 					<div class="welcome-info" data-aos="zoom-in" data-aos-delay="1000">
-						1 idioma = 1 fonte de rendimento<br>
-						<span>14 idiomas = 14 fontes de rendimento</span>
+						لغة واحدة = مصدر دخل واحد<br>
+						<span>أربع عشرة لغة = أربعة عشر مصدر للدخل</span>
 					</div>
 
 					<div class="welcome-map" data-aos="fade-in" data-aos-delay="1000" data-aos-anchor-placement="top-bottom">
@@ -146,7 +144,7 @@ CPM para aumento do rendimento. :white_check_mark: Faça seu conteúdo no YouTub
                             <div class="crm-content">
                                 <span class="crm-country"></span>
                                 <span class="crm-price">$<span></span></span>
-                                <p>CPM&nbsp;para&nbsp;um&nbsp;milhão<br> de visualizações<br> de anúncios</p>
+                                <p>الإيرادات لكل<br> مليون من المشاهدات<br> التجارية</p>
                             </div>
                         </div>
                         <div class="map-mobilenav">
@@ -164,6 +162,7 @@ CPM para aumento do rendimento. :white_check_mark: Faça seu conteúdo no YouTub
 						</picture>
                         <!-- <img class="map-shadow" src="img/shadow_map.png" alt=""> -->
 							<?php require_once('img/image-php/image1.php') ?>
+						</svg>
 	                </div>
 				</div>
 
@@ -183,11 +182,8 @@ CPM para aumento do rendimento. :white_check_mark: Faça seu conteúdo no YouTub
 				<div class="about-content">
 					<div class="container">
 						<div class="about-content__info" data-aos="fade-in">
-							<span>Você tem um canal com conteúdo excelente?</span>
-							<h2>Graças ao <strong>Krakatau</strong>, seu<br>
-							conteúdo será ouvido,<br>
-							entendido e amado em<br>
-							todos os continentes!<br></h2>
+							<span>يهل لديك قناة بها محتوى جذاب؟</span>
+                            <h2 style="direction: rtl;">يمكن مشاهدة محتواك وسماعه<br style="display: block">  وفهمه والإعجاب فيكل قارة بفضل<strong>KRAKATAU</strong></h2>
 						</div>
 						<div class="about-content__boxes">
 							<div class="about-content__box" data-aos="fade-up">
@@ -199,13 +195,13 @@ CPM para aumento do rendimento. :white_check_mark: Faça seu conteúdo no YouTub
 										</picture>
 										<!-- <img src="img/about1.png" alt=""> -->
 									</span>
-									<h3 class="box-title">Tradução</h3>
+									<h3 class="box-title">الترجمة</h3>
 								</div>
 								<div class="box-content">
 									<ul>
-										<li>Avaliação o potencial<br> do seu conteúdo</li>
-										<li>Determinando a competitividade<br> em outros idiomas</li>
-										<li>Criando uma estratégia<br> para lançar novos canais</li>
+										<li>تحليل إمكانيات<br> محتواك</li>
+										<li>التعرف عل التنافسية في<br> اللغات الأخرى</li>
+										<li>ابتكار استراتيجية<br> لبدء قنوات جديدة</li>
 									</ul>
 								</div>
 							</div>
@@ -218,13 +214,13 @@ CPM para aumento do rendimento. :white_check_mark: Faça seu conteúdo no YouTub
 										</picture>
 										<!-- <img src="img/about2.png" alt=""> -->
 									</span>
-									<h3 class="box-title">Dublagem</h3>
+									<h3 class="box-title">الدبلجة</h3>
 								</div>
 								<div class="box-content">
 									<ul>
-										<li>Criando a transcrição<br> do vídeo</li>
-										<li>Traduzindo e localizando<br> os scripts</li>
-										<li>Encontrando as<br> melhores vozes</li>
+										<li>تحويل الفيديو إلى<br> نص مكتوب</li>
+										<li>قم بترجمة وتوطين<br> السيناريوهات</li>
+										<li>ابحث عن أفضل<br> الأصوات</li>
 									</ul>
 								</div>
 							</div>
@@ -237,13 +233,13 @@ CPM para aumento do rendimento. :white_check_mark: Faça seu conteúdo no YouTub
 										</picture>
 										<!-- <img src="img/about3.png" alt=""> -->
 									</span>
-									<h3 class="box-title">Edição</h3>
+									<h3 class="box-title">التحرير</h3>
 								</div>
 								<div class="box-content">
 									<ul>
-										<li>Adaptando o vídeo a<br> novos idiomas</li>
-										<li>Criando vídeos exclusivos<br> para algoritmos do YouTube</li>
-										<li>Adicionando novo áudio e<br> elementos de vídeo</li>
+										<li>قم بجعل الفيديو يتوافق<br> مع اللغات الجديدة</li>
+										<li>أنشئ فيديوهات فريدة حسب<br> خوارزميات يوتيوب</li>
+										<li>أضف عناصر<br> صوت وفيديو</li>
 									</ul>
 								</div>
 							</div>
@@ -256,13 +252,13 @@ CPM para aumento do rendimento. :white_check_mark: Faça seu conteúdo no YouTub
 										</picture>
 										<!-- <img src="img/about4.png" alt=""> -->
 									</span>
-									<h3 class="box-title">Publicidade</h3>
+									<h3 class="box-title">النشر</h3>
 								</div>
 								<div class="box-content">
 									<ul>
-										<li>Avaliação as melhores<br> configurações para publicação</li>
-										<li>Trabalhando com telas<br> finais e playlists</li>
-										<li>Reunindo nuvens de<br> tags para cada idioma</li>
+										<li>تحليل أفضل<br> إعدادات النشر</li>
+										<li>العمل مع نهايات المقطع<br> وقوائم التشغيل</li>
+										<li>اجمع سحابات<br> الوسوم لكل لغة</li>
 									</ul>
 								</div>
 							</div>
@@ -275,13 +271,13 @@ CPM para aumento do rendimento. :white_check_mark: Faça seu conteúdo no YouTub
 										</picture>
 										<!-- <img src="img/about5.png" alt=""> -->
 									</span>
-									<h3 class="box-title">Divulgação</h3>
+									<h3 class="box-title">الترويج</h3>
 								</div>
 								<div class="box-content">
 									<ul>
-										<li>Implementando&nbsp;a&nbsp;melhor abordagem para alcançar a seção recomendada</li>
-										<li>Direcionando o tráfego de<br> outros canais ativos</li>
-										<li>Trabalhando com o AdWords<br> e outras plataformas</li>
+										<li>إجراء أفضل طريقة للوصول<br> لقسم التوصية</li>
+										<li>توجيه الحركة من القنوات<br> النشطة الأخرى</li>
+										<li>العمل مع أدووردز<br> ومنصات أخرى</li>
 									</ul>
 								</div>
 							</div>
@@ -294,13 +290,13 @@ CPM para aumento do rendimento. :white_check_mark: Faça seu conteúdo no YouTub
 										</picture>
 										<!-- <img src="img/about6.png" alt=""> -->
 									</span>
-									<h3 class="box-title">Avaliação</h3>
+									<h3 class="box-title">التحليل</h3>
 								</div>
 								<div class="box-content">
 									<ul>
-										<li>Determinando a melhor<br> estratégia de divulgação</li>
-										<li>Escolhendo o melhor do seu <br> do seu conteúdo para a tradução</li>
-										<li>Trabalhando com métricas<br> de aumento de visualizações</li>
+										<li>التعرف على أفضل<br> استراتيجية للترويج</li>
+										<li>اختيار أفضل<br> محتوى للترجمة</li>
+										<li>العمل مع تحليل<br> نمو المشاهدات</li>
 									</ul>
 								</div>
 							</div>
@@ -310,12 +306,12 @@ CPM para aumento do rendimento. :white_check_mark: Faça seu conteúdo no YouTub
 			</section>
 			<section id="profit" class="kr-section kr-section_profit" data-aos="fade-in">
 				<div class="container">
-					<h2>Descubra o rendimento que seu conteúdo<br> gerará quando traduzido para outros&nbsp;idiomas</h2>
-					<h3>Calculadora de rendimento para o&nbsp;canal&nbsp;de&nbsp;YouTube</h3>
+					<h2>ااحسب إيرادات محتواك حين يُيُترجم إلى لغات أخرى</h2>
+					<h3>حاسبة إيرادات قناة اليوتيوب</h3>
 
 					<div class="profit-calculator" data-aos="zoom-in">
 						<div class="pc-quantity">
-							<span class="h4">Número de visualizações de<br> anúncios em cada canal</span>
+							<span class="h4">عدد المشاهدات<br> التجارية على كل قناة</span>
 							<div class="range-nav">
 								<span class="range-left"><span>‹</span></span>
                             	<span class="range-right"><span>›</span></span>
@@ -332,28 +328,28 @@ CPM para aumento do rendimento. :white_check_mark: Faça seu conteúdo no YouTub
 						</div>
 						<div class="pc-languages">
 							<ul>
-								<li><span class="pc-lang-title">Inglês</span><span class="pc-lang-price" data-price="3900">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Japonês</span><span class="pc-lang-price" data-price="3600">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Francês</span><span class="pc-lang-price" data-price="3300">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Alemão</span><span class="pc-lang-price" data-price="3200">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Coreano</span><span class="pc-lang-price" data-price="3000">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Italiano</span><span class="pc-lang-price" data-price="2400">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Chinês</span><span class="pc-lang-price" data-price="1500">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">الإنجليزية</span><span class="pc-lang-price" data-price="3900">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">اليابانية</span><span class="pc-lang-price" data-price="3600">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">الفرنسية</span><span class="pc-lang-price" data-price="3300">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">الألمانية</span><span class="pc-lang-price" data-price="3200">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">الكورية</span><span class="pc-lang-price" data-price="3000">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">الإيطالية</span><span class="pc-lang-price" data-price="2400">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">الصينية</span><span class="pc-lang-price" data-price="1500">$<span></span>*</span></li>
 							</ul>
 							<ul>
-								<li><span class="pc-lang-title">Espanhol</span><span class="pc-lang-price" data-price="1100">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Português</span><span class="pc-lang-price" data-price="1000">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Russo</span><span class="pc-lang-price" data-price="900">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Árabe</span><span class="pc-lang-price" data-price="800">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Vietnamita</span><span class="pc-lang-price" data-price="700">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Indonésio</span><span class="pc-lang-price" data-price="600">$<span></span>*</span></li>
-								<li><span class="pc-lang-title">Hindi</span><span class="pc-lang-price" data-price="400">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">الإسبانية</span><span class="pc-lang-price" data-price="1100">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">البرتغالية</span><span class="pc-lang-price" data-price="1000">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">الروسية</span><span class="pc-lang-price" data-price="900">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">العربية</span><span class="pc-lang-price" data-price="800">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">الفيتنامية</span><span class="pc-lang-price" data-price="700">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">الأندونيسية</span><span class="pc-lang-price" data-price="600">$<span></span>*</span></li>
+								<li><span class="pc-lang-title">الهندية</span><span class="pc-lang-price" data-price="400">$<span></span>*</span></li>
 							</ul>
 						</div>
-						<div class="pc-subtotal"><span>Total</span><span>$<span></span>*</span></div>
-						<div class="pc-request"><button>Envie uma solicitação</button></div>
+						<div class="pc-subtotal"><span>المجموع</span><span>$<span></span>*</span></div>
+						<div class="pc-request"><button>أرسل طلبًا</button></div>
 					</div>
-					<span>* Todos os cálculos são aproximados e<br> dependem do teor do seu conteúdo</span>
+					<span dir="rtl">*جميع العمليات الحسابية تقريبية وبحسب محتوالموضوع </span>
 				</div>
 			</section>
 			<section id="audience" class="kr-section kr-section_audience">
@@ -377,28 +373,28 @@ CPM para aumento do rendimento. :white_check_mark: Faça seu conteúdo no YouTub
 						</ul>
 					</div>
 					<div class="audience-info">
-						<span><strong>Krakatau</strong> tem uma <br> audiência<br class="por-br1"> de 3,8 bilhões<br> de pessoas</span>
-						<button>Enviar uma solicitação</button>
+						<span>يمكن مشاهدة محتواك وسماعه وفهمه و<br><strong>KRAKATAUفهمه والإعجاب فيكل قارة بفضل </strong></span>
+						<button>أرسل طلبًا</button>
 					</div>
 				</div>
 			</section>
 			<section id="infographics" class="kr-section kr-section_infographics" data-aos="fade-in">
 				<div class="container">
-					<h2>Gráfico de crescimento <br>do rendimento de novos idiomas</h2>
-					<span class="h4">Casos reais de nossos parceiros</span>
+					<h2>رسم بياني يوضح<br> دخل اللغة الجديدة</h2>
+					<span class="h4">حالات حقيقية لبعض شركائنا</span>
 
 					<div class="infographics-slider owl-carousel">
 						<div class="item item-1" data-aos="zoom-in">
 							<div class="is-author">
 								<img class="owl-lazy" data-src="img/chanel1.png" alt="author">
-								<span>Informação oculta, a<br> pedido do proprietário</span>
+								<span>مخفي بناء على رغبة المالك </span>
 							</div>
 							<div class="is-graphic">
-								<span class="is-title">Entretenimento</span>
+								<span class="is-title">الترفيه</span>
 
 								<picture loading="lazy" class="lazy">
-								  <!-- <source srcset="img/infographics1-por.webp" type="image/webp">  -->
-								  <img src="img/infographics1-por.png" alt="graphic">
+								  <!-- <source srcset="img/infographics1-ara.webp" type="image/webp">  -->
+								  <img src="img/infographics1-ara.png" alt="graphic">
 								</picture>
 
 								<!-- <img src="img/infographics1.png" alt="graphic"> -->
@@ -407,14 +403,14 @@ CPM para aumento do rendimento. :white_check_mark: Faça seu conteúdo no YouTub
 						<div class="item item-2" data-aos="zoom-in">
 							<div class="is-author">
 								<img class="owl-lazy" data-src="img/chanel2.png" alt="author">
-								<span>Informação oculta, a<br> pedido do proprietário</span>
+								<span>مخفي بناء على رغبة المالك </span>
 							</div>
 							<div class="is-graphic">
-								<span class="is-title">DIY</span>
+								<span class="is-title">كيف تفعل</span>
 
 								<picture loading="lazy" class="lazy">
-								  <!-- <source srcset="img/infographics2-por.webp" type="image/webp">  -->
-								  <img src="img/infographics2-por.png" alt="graphic">
+								  <!-- <source srcset="img/infographics2-ara.webp" type="image/webp">  -->
+								  <img src="img/infographics2-ara.png" alt="graphic">
 								</picture>
 
 								<!-- <img src="img/infographics2.png" alt="graphic"> -->
@@ -423,14 +419,14 @@ CPM para aumento do rendimento. :white_check_mark: Faça seu conteúdo no YouTub
 						<div class="item item-3" data-aos="zoom-in">
 							<div class="is-author">
 								<img class="owl-lazy" data-src="img/chanel3.png" alt="author">
-								<span>Informação oculta, a<br> pedido do proprietário</span>
+								<span>مخفي بناء على رغبة المالك </span>
 							</div>
 							<div class="is-graphic">
-								<span class="is-title">Beleza</span>
+								<span class="is-title">الجمال</span>
 
 								<picture loading="lazy" class="lazy">
-								  <!-- <source srcset="img/infographics3-por.webp" type="image/webp">  -->
-								  <img src="img/infographics3-por.png" alt="graphic">
+								  <!-- <source srcset="img/infographics3-ara.png" type="image/webp">  -->
+								  <img src="img/infographics3-ara.png" alt="graphic">
 								</picture>
 
 								<!-- <img src="img/infographics3.png" alt="graphic"> -->
@@ -439,14 +435,14 @@ CPM para aumento do rendimento. :white_check_mark: Faça seu conteúdo no YouTub
 						<div class="item item-4" data-aos="zoom-in">
 							<div class="is-author">
 								<img class="owl-lazy" data-src="img/chanel4.png" alt="author">
-								<span>Informação oculta, a<br> pedido do proprietário</span>
+								<span>مخفي بناء على رغبة المالك </span>
 							</div>
 							<div class="is-graphic">
-								<span class="is-title">Jogos</span>
+								<span class="is-title">الألعاب</span>
 
 								<picture loading="lazy" class="lazy">
-								  <!-- <source srcset="img/infographics4-por.webp" type="image/webp">  -->
-								  <img src="img/infographics4-por.png" alt="graphic">
+								  <!-- <source srcset="img/infographics4-ara.webp" type="image/webp">  -->
+								  <img src="img/infographics4-ara.png" alt="graphic">
 								</picture>
 
 								<!-- <img src="img/infographics4.png" alt="graphic"> -->
@@ -454,45 +450,44 @@ CPM para aumento do rendimento. :white_check_mark: Faça seu conteúdo no YouTub
 						</div>
 					</div>
                     <span class="is-chanels">
-                        <span class="chanel">Rendimento do canal principal</span>
-                        <span class="chanel">Rendimentos dos canais traduzidos</span>
+                        <span class="chanel">أرباح القناة الرئيسة</span>
+                        <span class="chanel">أرباح القنوات المُترجَمَة</span>
                     </span>
 				</div>
 			</section>
 			<section id="contact-us" class="kr-section kr-section_contact-us" data-aos="fade-in">
                 <div class="reasons">
                     <div class="container">
-                        <span class="h2">Por que nós?</span>
+                        <span class="h2">لماذا نحن؟</span>
                         <div class="reasons-info">
-                            <p>Vasta experiência com tradução profissional e desenvolvimento de canais estrangeiros</p>
-                            <p>Cobrimos todas as despesas com tradução, localização e divulgação</p>
-                            <p>Trabalhamos com o grupo de idiomas mais lucrativos que geram rendimentos máximos</p>
-                            <p>Fornecemos estatísticas mensais transparentes de todos os canais</p>
+                            <p>تجربة واسعة في ترجمة وتطوير القنوات الأجنبية</p>
+                            <p>نقوم بتوفير تكاليف الترجمة والتوطين والترويج</p>
+                            <p>نعمل مع مجموعة من أكثر اللغات ربحية والتيأعلى الأرباح الممكنة</p>
+                            <p>نقوم بتوفير إحصائيات شهرية شفافة عن كل القنوات</p>
                         </div>
 
                         <div class="reasons-profit">
                             <span class="profit-arrow" data-aos="flip-down"><img class="lazy" data-src="img/green-arrow.png" alt="arrow"></span>
-                            <span>Você obtém</span>
-                            <img class="lazy" data-src="img/text12.png" alt="profit" data-aos="zoom-in">
-                            <span>LUCRO sem gastar<br>
-                                tempo ou dinheiro</span>
+                            <span>تحصل على</span>
+                            <img class="lazy" data-src="img/text2.png" alt="profit" data-aos="zoom-in">
+                            <span>دون إنفاق المال والوقت</span>
                         </div>
                     </div>
                 </div>
                 <div class="contact-us">
                     <div class="container">
-                        <span class="h2">Escreva-nos</span>
-                        <span class="h4">para ganhar mais</span>
+                        <span class="h2">راسلنا كي</span>
+                        <span class="h4">تربح أكثر</span>
 
 						<form action="" method="post" novalidate>
-                            <input type="text" name="name" id="input_name" placeholder="Seu nome" aria-label="name">
+                            <input type="text" name="name" id="input_name" placeholder="اسمك" aria-label="name">
                             <div class="contact-social">
                                 <div class="social-inputs">
-                                    <input class="input-telegram active" type="text" name="telegram" placeholder="Seu Telegram" aria-label="telegram">
-                                    <input class="input-whatsapp" type="text" name="whatsapp" placeholder="Seu Whatsapp" aria-label="whatsapp">
-                                    <input class="input-messenger" type="text" name="messenger" placeholder="Seu Messenger" aria-label="messenger">
-                                    <input class="input-instagram" type="text" name="instagram" placeholder="Seu Instagram" aria-label="instagram">
-                                    <input class="input-skype" type="text" name="skype" placeholder="Seu Skype" aria-label="skype">
+                                    <input class="input-telegram active" type="text" name="telegram" placeholder="تلغرام" aria-label="telegram">
+                                    <input class="input-whatsapp" type="text" name="whatsapp" placeholder="الواتس آب" aria-label="whatsapp">
+                                    <input class="input-messenger" type="text" name="messenger" placeholder="الماسنجر" aria-label="messenger">
+                                    <input class="input-instagram" type="text" name="instagram" placeholder="إنستغرام" aria-label="instagram">
+                                    <input class="input-skype" type="text" name="skype" placeholder="سكايب" aria-label="skype">
                                 </div>
                                 <div class="social-links">
                                     <ul>
@@ -504,12 +499,12 @@ CPM para aumento do rendimento. :white_check_mark: Faça seu conteúdo no YouTub
                                     </ul>
                                 </div>
                             </div>
-                            <input type="email"  id="input_email" name="email" placeholder="Seu E-mail" aria-label="email">
-                            <input type="text"  id="input_link" name="link" placeholder="Link para o seu canal do YouTube" aria-label="youtube">
+                            <input type="email"  id="input_email" name="email" placeholder="بريدك" aria-label="email">
+                            <input type="text"  id="input_link" name="link" placeholder="رابط لحساب قناتك في يوتيوب" aria-label="youtube">
 
-							<input type="submit" name="submit" onClick="return dataField(this.form);" value="Envie uma solicitação">
+							<input type="submit" name="submit" onClick="return dataField(this.form);" value="أرسل طلبًا">
                         </form>
-                        <span>Nós garantimos a confidencialidade<br> das suas informações</span>
+                        <span>نتعهد بضمان سرية<br> معلوماتك</span>
                     </div>
                 </div>
 			</section>
@@ -528,7 +523,7 @@ CPM para aumento do rendimento. :white_check_mark: Faça seu conteúdo no YouTub
 						<div class="foo-kr-youtube"><a href="https://servicesdirectory.withyoutube.com/directory?page_size=12&page=1" target="_blank"><img class="lazy" data-src="img/youtube.png" alt="youtube"></a></div>
 					</div>
 					<div class="footer-email">
-						<span>Tem dúvidas?</span>
+						<span>هل لديك استفسارات؟</span>
 					</div>
 				</div>
 				<div class="footer-copyright">2020 © Krakatau All rights reserved</div>
@@ -537,17 +532,17 @@ CPM para aumento do rendimento. :white_check_mark: Faça seu conteúdo no YouTub
 
 		<div class="kr-request">
 			<div class="kr-request-content">
-				<span class="h2">Escreva-nos<span> para ganhar mais</span></span>
+				<span class="h2">راسلنا كي<span>تربح أكثر</span></span>
 				<form method="post" novalidate>
-					<input type="text"   id="input_name2" name="name" placeholder="Seu nome" aria-label="name">
+					<input type="text"   id="input_name2" name="name" placeholder="اسمك" aria-label="name">
 					<!-- <input type="text"   id="input_messenger2" name="messenger" placeholder="Мессенджер"> -->
 					<div class="contact-social">
                         <div class="social-inputs">
-                            <input id="input_telegram2"  class="input-telegram active" type="text" name="telegram" placeholder="Seu Telegram" aria-label="telegram">
-                            <input id="input_whatsapp2"  class="input-whatsapp" type="text" name="whatsapp" placeholder="Seu Whatsapp" aria-label="whatsapp">
-                            <input id="input_messenger2" class="input-messenger" type="text" name="messenger" placeholder="Seu Messenger" aria-label="messenger">
-                            <input id="input_instagram2" class="input-instagram" type="text" name="instagram" placeholder="Seu Instagram" aria-label="instagram">
-                            <input id="input_skype2"     class="input-skype" type="text" name="skype" placeholder="Seu Skype" aria-label="skype">
+                            <input id="input_telegram2"  class="input-telegram active" type="text" name="telegram" placeholder="تلغرام" aria-label="telegram">
+                            <input id="input_whatsapp2"  class="input-whatsapp" type="text" name="whatsapp" placeholder="الواتس آب" aria-label="whatsapp">
+                            <input id="input_messenger2" class="input-messenger" type="text" name="messenger" placeholder="الماسنجر" aria-label="messenger">
+                            <input id="input_instagram2" class="input-instagram" type="text" name="instagram" placeholder="إنستغرام" aria-label="instagram">
+                            <input id="input_skype2"     class="input-skype" type="text" name="skype" placeholder="سكايب" aria-label="skype">
                         </div>
                         <div class="social-links">
                             <ul>
@@ -559,36 +554,35 @@ CPM para aumento do rendimento. :white_check_mark: Faça seu conteúdo no YouTub
                             </ul>
                         </div>
                     </div>
-					<input type="text"  id="input_email2" name="email" placeholder="Seu E-mail" aria-label="email">
-					<input type="text"   id="input_link2" name="link" placeholder="Link para o seu canal do YouTube" aria-label="youtube">
-					<input id="submit" type="submit" name="submit" onClick="return dataField2(this.form);" value="Envie uma solicitação">
+					<input type="text"  id="input_email2" name="email" placeholder="بريدك" aria-label="email">
+					<input type="text"   id="input_link2" name="link" placeholder="رابط لحساب قناتك في يوتيوب" aria-label="link">
+					<input id="submit" type="submit" name="submit" onClick="return dataField2(this.form);" value="أرسل طلبًا">
 				</form>
 			</div>
 		</div>
 		<div id="popup" class="kr-request request-thanks">
 			<div class="kr-request-content-thanks">
-				<span class="h2" style="margin:0;"></span>
+				<span class="h2" style="margin:0;">شكرًا. سنتواصل معك قريبًًا</span>
 			</div>
 		</div>
-       
-
+        
         <div class="kr-lang-popup">
         	<div class="kr-lang-popup-content">
         		<ul>
-        			<li><a href="/m_content/krakatau/index-eng.php">Inglês</a></li>
-					<li><a href="/m_content/krakatau/index-spa.php">Espanhol</a></li>
-					<li><a href="/m_content/krakatau/index-hin.php">Hindi</a></li>
-					<li><a href="/m_content/krakatau/index-ara.php">Árabe</a></li>
-					<li><a href="/m_content/krakatau">Russo</a></li>
-					<li><a href="/m_content/krakatau/index-fre.php">Francês</a></li>
-					<li class="active">Português</li>
-					<li><a href="/m_content/krakatau/index-ind.php">Indonésio</a></li>
-					<li><a href="/m_content/krakatau/index-chi.php">Chinês</a></li>
-					<li><a href="/m_content/krakatau/index-deu.php">Alemão</a></li>
-					<li><a href="/m_content/krakatau/index-jpn.php">Japonês</a></li>
-					<li><a href="/m_content/krakatau/index-ita.php">Italiano</a></li>
-					<li><a href="/m_content/krakatau/index-vie.php">Vietnamita</a></li>
-					<li><a href="/m_content/krakatau/index-kor.php">Coreano</a></li>
+        			<li><a href="/en">English</a></li>
+					<li><a href="/sp">Spanish</a></li>
+					<li><a href="/hi">Hindi</a></li>
+					<li class="active">Arabic</li>
+					<li><a href="/m_content/krakatau">Russian</a></li>
+					<li><a href="/fr">French</a></li>
+					<li><a href="/po">Portuguese</a></li>
+					<li><a href="/in">Indonesian</a></li>
+					<li><a href="/ch">Chinese</a></li>
+					<li><a href="/de">Deutch</a></li>
+					<li><a href="/jp">Japanese</a></li>
+					<li><a href="/it">Italian</a></li>
+					<li><a href="/vi">Vietnamese</a></li>
+					<li><a href="/ko">Korean</a></li>
         		</ul>
         	</div>
         </div>
@@ -609,7 +603,7 @@ CPM para aumento do rendimento. :white_check_mark: Faça seu conteúdo no YouTub
 		return objRE.test(url);
 	}
 
-    function dataField(f) {
+ function dataField(f) {
         let formdata = new FormData(f);
         let formdatasend = {};
 
