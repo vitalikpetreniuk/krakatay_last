@@ -638,7 +638,7 @@
         if(flag)	{
             $.ajax({
                 type: 'POST',
-                url:'https://krakatau.pro/application',
+                url:'https://back.krakatau.pro/application',
                 data: formdatasend,
                 success: function () {
                     dataLayer.push({'event': 'FormSuccess'});
@@ -686,7 +686,7 @@
         if (flag) {
             $.ajax({
                 type: 'POST',
-                url: 'https://krakatau.pro/application',
+                url: 'https://back.krakatau.pro/application',
                 data: formdatasend,
                 success: function () {
                     dataLayer.push({'event': 'FormSuccess'});
