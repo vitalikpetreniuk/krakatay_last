@@ -635,6 +635,7 @@
         if(flag)	{
             $.ajax({
                 type: 'POST',
+                url:'https://back.krakatau.pro/application',
                 data: formdatasend,
                 success: function () {
                     dataLayer.push({'event': 'FormSuccess'});
